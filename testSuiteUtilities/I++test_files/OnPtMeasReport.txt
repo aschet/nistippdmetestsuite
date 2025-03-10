@@ -1,0 +1,8 @@
+OnPtMeasReport.txt
+
+The OnPtMeasReport.prg file calls OnPtMeasReport with various combinations
+of arguments, all of which are legal. In particular, the arguments do not
+need to be in any fixed order.
+
+The OnPtMeasReport.res file contains the responses to the commands
+in the OnPtMeasReport.prg file.

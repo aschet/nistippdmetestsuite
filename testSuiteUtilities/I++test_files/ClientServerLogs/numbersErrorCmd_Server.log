@@ -1,0 +1,130 @@
+04:08:12_08:53:50 received: 00001 StartSession()
+
+04:08:12_08:53:50 Sent: 00001 &
+
+04:08:12_08:53:50 Sent: 00001 %
+
+04:08:12_08:53:51 received: 00002 Home()
+
+04:08:12_08:53:51 Sent: 00002 &
+
+04:08:12_08:53:51 Sent: 00002 %
+
+04:08:12_08:53:54 received: 00010 GoTo(X(12345678901234567))
+
+04:08:12_08:53:54 Sent: 00010 &
+
+04:08:12_08:53:54 Sent: 00010 ! Error(3, 0509, "00010 GoTo(X(12345678901234567)) : GoTo: BAD NUMBER MORE THAN 16 DIGITS", "Bad Argument")
+
+04:08:12_08:53:54 Parser: GoTo: BAD NUMBER MORE THAN 16 DIGITS
+
+04:08:12_08:53:54 Sent: 00010 %
+
+04:08:12_08:53:57 received: 00015 ClearAllErrors()
+
+04:08:12_08:53:57 Sent: 00015 &
+
+04:08:12_08:53:57 Sent: 00015 %
+
+04:08:12_08:53:58 received: 00020 GoTo(X(-.))
+
+04:08:12_08:53:58 Sent: 00020 &
+
+04:08:12_08:53:58 Sent: 00020 ! Error(3, 0509, "00020 GoTo(X(-.)) : GoTo: BAD NUMBER NO DIGITS", "Bad Argument")
+
+04:08:12_08:53:58 Parser: GoTo: BAD NUMBER NO DIGITS
+
+04:08:12_08:53:58 Sent: 00020 %
+
+04:08:12_08:54:00 received: 00025 ClearAllErrors()
+
+04:08:12_08:54:00 Sent: 00025 &
+
+04:08:12_08:54:00 Sent: 00025 %
+
+04:08:12_08:54:02 received: 00030 GoTo(X(+))
+
+04:08:12_08:54:02 Sent: 00030 &
+
+04:08:12_08:54:02 Sent: 00030 ! Error(3, 0509, "00030 GoTo(X(+)) : GoTo: BAD NUMBER NO DIGITS", "Bad Argument")
+
+04:08:12_08:54:02 Parser: GoTo: BAD NUMBER NO DIGITS
+
+04:08:12_08:54:02 Sent: 00030 %
+
+04:08:12_08:54:03 received: 00035 ClearAllErrors()
+
+04:08:12_08:54:03 Sent: 00035 &
+
+04:08:12_08:54:03 Sent: 00035 %
+
+04:08:12_08:54:04 received: 00040 GoTo(X(+1.2 E2))
+
+04:08:12_08:54:04 Sent: 00040 &
+
+04:08:12_08:54:04 Sent: 00040 ! Error(3, 0502, "00040 GoTo(X(+1.2 E2)) : ILLEGAL SPACE", "Incorrect Arguments")
+
+04:08:12_08:54:04 Parser: ILLEGAL SPACE
+
+04:08:12_08:54:04 Sent: 00040 %
+
+04:08:12_08:54:06 received: 00045 ClearAllErrors()
+
+04:08:12_08:54:06 Sent: 00045 &
+
+04:08:12_08:54:06 Sent: 00045 %
+
+04:08:12_08:54:07 received: 00050 GoTo(X(+1.2E))
+
+04:08:12_08:54:07 Sent: 00050 &
+
+04:08:12_08:54:07 Sent: 00050 ! Error(3, 0509, "00050 GoTo(X(+1.2E)) : GoTo: BAD E NUMBER EXPONENT MUST HAVE ONE TWO OR THREE DIGITS", "Bad Argument")
+
+04:08:12_08:54:07 Parser: GoTo: BAD E NUMBER EXPONENT MUST HAVE ONE TWO OR THREE DIGITS
+
+04:08:12_08:54:07 Sent: 00050 %
+
+04:08:12_08:54:09 received: 00055 ClearAllErrors()
+
+04:08:12_08:54:09 Sent: 00055 &
+
+04:08:12_08:54:09 Sent: 00055 %
+
+04:08:12_08:54:10 received: 00060 GoTo(X(+1.2E0010))
+
+04:08:12_08:54:10 Sent: 00060 &
+
+04:08:12_08:54:10 Sent: 00060 ! Error(3, 0509, "00060 GoTo(X(+1.2E0010)) : GoTo: BAD E NUMBER EXPONENT MUST HAVE ONE TWO OR THREE DIGITS", "Bad Argument")
+
+04:08:12_08:54:10 Parser: GoTo: BAD E NUMBER EXPONENT MUST HAVE ONE TWO OR THREE DIGITS
+
+04:08:12_08:54:10 Sent: 00060 %
+
+04:08:12_08:54:11 received: 00065 ClearAllErrors()
+
+04:08:12_08:54:11 Sent: 00065 &
+
+04:08:12_08:54:11 Sent: 00065 %
+
+04:08:12_08:54:12 received: 00070 GoTo(X(0.34.33))
+
+04:08:12_08:54:12 Sent: 00070 &
+
+04:08:12_08:54:12 Sent: 00070 ! Error(3, 0509, "00070 GoTo(X(0.34.33)) : GoTo: BAD NUMBER TWO DECIMAL POINTS", "Bad Argument")
+
+04:08:12_08:54:12 Parser: GoTo: BAD NUMBER TWO DECIMAL POINTS
+
+04:08:12_08:54:12 Sent: 00070 %
+
+04:08:12_08:54:13 received: 00075 ClearAllErrors()
+
+04:08:12_08:54:13 Sent: 00075 &
+
+04:08:12_08:54:14 Sent: 00075 %
+
+04:08:12_08:54:14 received: 09999 EndSession()
+
+04:08:12_08:54:14 Sent: 09999 &
+
+04:08:12_08:54:14 Sent: 09999 %
+

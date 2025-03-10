@@ -1,0 +1,12 @@
+ScanInPlaneEndIsSphere.txt
+
+The ScanInPlaneEndIsSphere.prg file:
+starts a session
+calls Home
+calls ChangeTool
+calls ScanInPlaneEndIsSphere
+ends the session
+
+The ScanInPlaneEndIsSphere.res file contains responses to the commands in the
+The ScanInPlaneEndIsSphere.prg file.
+

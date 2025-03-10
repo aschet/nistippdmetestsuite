@@ -1,0 +1,12 @@
+SetCsyTransformation.txt
+
+The SetCsyTransformation.prg file contains SetCsyTransformation commands,
+SetCoordSystem commands, and Get commands.  When theta is 0, Psi and Phi
+are both rotations about the original Z-axis, so any two settings that have
+theta=0 and the same Psi+Phi produce the same effect. Thus, commands 00020
+and 00030 do not change anything.
+
+The SetCsyTransformation.res file contains responses to the commands in
+The SetCsyTransformation.prg file. The values in SetCsyTransformation.res
+returned in response to Get commands are actual correct values.
+

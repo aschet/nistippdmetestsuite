@@ -1,0 +1,104 @@
+numbersCmdOK.txt
+
+The numbersCmdOK.prg file contains numbers written various ways, all of
+which are correct, so that the file should be parsed without error.
+The file should be executable in simulation, but many values may be
+greater than Max or less than Min and cause error messages to be
+generated.
+
+The numbersCmdOK.res file contains what the NIST server responds
+when it is connected to the NIST client and that client runs the
+numbersCmdOK.prg file.
+
+The following is a description of the numbers in the numbersCmdOK.prg
+file, keyed by tag number. The following abbreviations are used.
+EXP = upper case E exponent
+exp = lower case e exponent
+no exp = no exponent
+dp = decimal point
+exsign = sign on exponent
+
+
+00010 0
+      no sign, zero value, no dp, no exp
+00020 123
+      no sign, several digits, no dp, no exp
+00030 +90
+      plus sign, several digits, no dp, no exp
+00040 -90
+      minus sign, several digits, no dp, no exp
+00050 12.2
+      no sign, dp, no exp
+00060 +1.2
+      plus sign, dp, no exp
+00070 -1.2
+      minus sign, dp, no exp
+00080 1234567890123456
+      no sign, 16 digits, no dp, no exp
+00090 1.234567890123456
+      no sign, 16 digits, dp, no exp
+00100 +1.234567890123456
+      plus sign, 16 digits, dp, no exp
+00110 -0000
+      minus sign, zero value, leading zeros, no dp, no exp)
+00120 0090
+      no sign, leading zeros, no dp, no exp
+00130 +0090
+      plus sign, leading zeros, no dp, no exp
+00140 -0090
+      minus sign, leading zeros, no dp, no exp
+00150 +0000.5
+      plus sign, leading zeros, dp, no exp
+00160 +0000.5E7
+      plus sign, leading zeros, dp, EXP, no exsign
+00170 3.9E2
+      no sign, dp, 1-digit EXP, no exsign
+00180 1.3E02
+      no sign, dp, 2-digit EXP, no exsign
+00190 3.8E002
+      no sign, dp, 3-digit EXP, no exsign
+00200 +6.333E1
+      plus sign, dp, EXP, no exsign
+00210 -9.333E01
+      minus sign, dp, EXP, no exsign
+00220 +1.234567890123456E003
+      plus sign, 16 digits, dp, EXP, no exsign
+00230 +1.234567890123456E-123
+      plus sign, 16 digits, dp, EXP, minus exsign
+00240 +6.333E+01
+      plus sign, dp, EXP, plus exsign
+00250 +6.382E-01
+      plus sign, dp, EXP, minus exsign
+00260 -6.333E+01
+      minus sign, dp, EXP, plus exsign
+00270 -6.382E-012
+      minus sign, dp, EXP, minus exsign
+00280 +0000.5e7
+      plus sign, leading zeros, dp, exp, no exsign
+00290 3.9e2
+      no sign, dp, 1-digit exp, no exsign
+00300 1.3e02
+      no sign, dp, 2-digit exp, no exsign
+00310 3.8e002
+      no sign, dp, 3-digit exp, no exsign
+00320 +6.333e1
+      plus sign, dp, exp, no exsign
+00330 -9.333e01
+      minus sign, dp, exp, no exsign
+00340 +1.234567890123456e003
+      plus sign, 16 digits, dp, exp, no exsign
+00350 +1.234567890123456e-123
+      plus sign, 16 digits, dp, exp, minus exsign
+00360 +6.333e+01
+      plus sign, dp, exp, plus exsign
+00370 +6.382e-01
+      plus sign, dp, exp, minus exsign
+00380 -6.333e+01
+      minus sign, dp, exp, plus exsign
+00390 -6.382e-012
+      minus sign, dp, exp, minus exsign
+00400 .123
+      no sign, dp at beginning of number, no exp
+00410 123.
+      no sign, dp at end of number, no exp
+

@@ -1,0 +1,12 @@
+ScanInCylEndIsSphere.txt
+
+The ScanInCylEndIsSphere.prg file:
+starts a session
+calls Home
+calls ChangeTool
+calls ScanInCylEndIsSphere
+ends the session
+
+The ScanInCylEndIsSphere.res file contains responses to the commands in the
+The ScanInCylEndIsSphere.prg file.
+

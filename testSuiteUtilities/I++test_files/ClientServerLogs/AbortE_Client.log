@@ -1,0 +1,34 @@
+04:08:12_05:52:13 *********** Starting DME file: H:\NISTI++DMEtestSuite3.0\testSuiteUtilities\I++test_files\AbortE.prg **********
+04:08:12_05:52:13 Sent: 00001 StartSession()
+
+04:08:12_05:52:13 Received: 00001 &
+
+04:08:12_05:52:13 Received: 00001 %
+
+04:08:12_05:52:15 Sent: E0005 OnMoveReportE(Time(5), Dis(0.34), X(), Y(), Z())
+
+04:08:12_05:52:15 Received: E0005 &
+
+04:08:12_05:52:15 Received: E0005 %
+
+04:08:12_05:52:17 Sent: E0010 AbortE()
+
+04:08:12_05:52:17 Received: E0010 &
+
+04:08:12_05:52:17 Received: E0010 %
+
+04:08:12_05:52:19 Sent: 00015 ClearAllErrors()
+
+04:08:12_05:52:19 Received: 00015 &
+
+04:08:12_05:52:19 Received: 00015 %
+
+04:08:12_05:52:21 Final Tag: 09999
+04:08:12_05:52:21 Sent: 09999 EndSession()
+
+04:08:12_05:52:21 Received: 09999 &
+
+04:08:12_05:52:21 Received: 09999 %
+
+04:08:12_05:52:21 Session completed
+04:08:12_05:52:23 Driver file completed

@@ -1,0 +1,11 @@
+TiltPart.txt
+
+The TiltPart.prg file:
+starts a session,
+homes the machine,
+calls TiltPart,
+ends the session.
+
+The TiltPart.res file contains the responses to the commands
+in the TiltPart.prg file.
+

@@ -1,0 +1,54 @@
+allResOK.txt
+
+The allResOK.res file has one response of each type. The following
+functions in the parserRes.cc file make responses. The second and third
+digits of the tag number correspond to the number of the function in the
+list below that built the response. The fifth digit of the tag number
+corresponds to first, second, etc. response made by that function.
+For example, 00302 would be the tag number of the second response made by
+makeEnumPropResponse.
+
+1.  makeAlignResponse
+2.  makeCenterPartResponse
+3.  makeEnumPropResponse
+4.  makeErrorResponse
+5.  makeGetChangeToolActionResponse
+6.  makeGetCoordSystemResponse
+7.  makeGetCsyTransformationResponse
+8.  makeGetDMEVersionResponse
+9.  makeGetErrStatusEResponse
+10. makeGetMachineClassResponse
+11. makeGetPropResponse
+12. makeIsHomedResponse
+13. makeIsUserEnabledResponse
+14. makeOnePropertyAlignment
+15. makeOnePropertyCollisionVolume
+16. makeOnePropertyId
+17. makeOnePropertyName
+18. makeOnePropertyNumber
+19. makePtMeasOrGetResponse
+20. makeScanResponse
+21. makeStringResponse
+22. makeTiltCenterPartResponse
+23. makeTiltPartResponse
+
+In addition to the responses made by the functions listed above,
+server-initiated responses made by the following functions (in the
+parserRes.cc file) are included near the end of allResOK.res. These
+all use tag E0000.
+
+makeChangeToolEResponse
+makeGoToEResponse
+makeKeyPressEResponse
+makePtMeasEResponse
+makeSetPropEResponse
+
+The allResOK.prg file is a file of commands whose execution might result
+in the responses in the allResOK.res file (except that the correct context
+is not established to produce several of the responses). For the server-
+initiated responses at the end of the allResOK.res file, there are no
+corresponding commands in the allResOK.prg file.
+
+The allResOK.prg and allResOK.res files should parse without error in
+parserCmd and parserRes, respectively.
+

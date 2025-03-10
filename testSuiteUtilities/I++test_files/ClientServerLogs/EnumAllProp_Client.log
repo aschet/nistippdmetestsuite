@@ -1,0 +1,603 @@
+04:08:12_07:30:31 Sent: 00001 StartSession()
+
+04:08:12_07:30:31 Received: 00001 &
+
+04:08:12_07:30:31 Received: 00001 %
+
+04:08:12_07:30:32 Sent: 00005 ChangeTool("BaseTool")
+
+04:08:12_07:30:32 Received: 00005 &
+
+04:08:12_07:30:32 Received: 00005 %
+
+04:08:12_07:30:33 Sent: 00007 FindTool("RefTool")
+
+04:08:12_07:30:33 Received: 00007 &
+
+04:08:12_07:30:33 Received: 00007 %
+
+04:08:12_07:30:34 Sent: 00010 EnumAllProp(Tool())
+
+04:08:12_07:30:34 Received: 00010 &
+
+04:08:12_07:30:34 Received: 00010 # "GoToPar", "Property"
+
+04:08:12_07:30:34 Received: 00010 # "Speed", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Speed", "Property"
+
+04:08:12_07:30:34 Received: 00010 # "Speed.Act", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Speed.Def", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Speed.Max", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Speed.Min", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Accel", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Accel", "Property"
+
+04:08:12_07:30:34 Received: 00010 # "Accel.Act", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Accel.Def", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Accel.Max", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Accel.Min", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "PtMeasPar", "Property"
+
+04:08:12_07:30:34 Received: 00010 # "Speed", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Speed", "Property"
+
+04:08:12_07:30:34 Received: 00010 # "Speed.Act", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Speed.Def", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Speed.Max", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Speed.Min", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Accel", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Accel", "Property"
+
+04:08:12_07:30:34 Received: 00010 # "Accel.Act", "Number"
+
+04:08:12_07:30:34 Received: 00010 # "Accel.Def", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Accel.Max", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Accel.Min", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Approach", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Approach", "Property"
+
+04:08:12_07:30:35 Received: 00010 # "Approach.Act", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Approach.Def", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Approach.Max", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Approach.Min", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Search", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Search", "Property"
+
+04:08:12_07:30:35 Received: 00010 # "Search.Act", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Search.Def", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Search.Max", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Search.Min", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Retract", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Retract", "Property"
+
+04:08:12_07:30:35 Received: 00010 # "Retract.Act", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Retract.Def", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Retract.Max", "Number"
+
+04:08:12_07:30:35 Received: 00010 # "Retract.Min", "Number"
+
+04:08:12_07:30:35 Received: 00010 %
+
+04:08:12_07:30:36 Sent: 00020 EnumAllProp(FoundTool())
+
+04:08:12_07:30:36 Received: 00020 &
+
+04:08:12_07:30:36 Received: 00020 # "GoToPar", "Property"
+
+04:08:12_07:30:36 Received: 00020 # "Speed", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Speed", "Property"
+
+04:08:12_07:30:36 Received: 00020 # "Speed.Act", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Speed.Def", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Speed.Max", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Speed.Min", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Accel", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Accel", "Property"
+
+04:08:12_07:30:36 Received: 00020 # "Accel.Act", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Accel.Def", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Accel.Max", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Accel.Min", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "PtMeasPar", "Property"
+
+04:08:12_07:30:36 Received: 00020 # "Speed", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Speed", "Property"
+
+04:08:12_07:30:36 Received: 00020 # "Speed.Act", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Speed.Def", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Speed.Max", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Speed.Min", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Accel", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Accel", "Property"
+
+04:08:12_07:30:36 Received: 00020 # "Accel.Act", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Accel.Def", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Accel.Max", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Accel.Min", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Approach", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Approach", "Property"
+
+04:08:12_07:30:36 Received: 00020 # "Approach.Act", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Approach.Def", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Approach.Max", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Approach.Min", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Search", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Search", "Property"
+
+04:08:12_07:30:36 Received: 00020 # "Search.Act", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Search.Def", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Search.Max", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Search.Min", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Retract", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Retract", "Property"
+
+04:08:12_07:30:36 Received: 00020 # "Retract.Act", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Retract.Def", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Retract.Max", "Number"
+
+04:08:12_07:30:36 Received: 00020 # "Retract.Min", "Number"
+
+04:08:12_07:30:36 Received: 00020 %
+
+04:08:12_07:30:37 Sent: 00030 EnumAllProp(Tool.GoToPar())
+
+04:08:12_07:30:37 Received: 00030 &
+
+04:08:12_07:30:37 Received: 00030 # "Speed", "Number"
+
+04:08:12_07:30:37 Received: 00030 # "Speed", "Property"
+
+04:08:12_07:30:37 Received: 00030 # "Speed.Act", "Number"
+
+04:08:12_07:30:37 Received: 00030 # "Speed.Def", "Number"
+
+04:08:12_07:30:37 Received: 00030 # "Speed.Max", "Number"
+
+04:08:12_07:30:37 Received: 00030 # "Speed.Min", "Number"
+
+04:08:12_07:30:37 Received: 00030 # "Accel", "Number"
+
+04:08:12_07:30:37 Received: 00030 # "Accel", "Property"
+
+04:08:12_07:30:38 Received: 00030 # "Accel.Act", "Number"
+
+04:08:12_07:30:38 Received: 00030 # "Accel.Def", "Number"
+
+04:08:12_07:30:38 Received: 00030 # "Accel.Max", "Number"
+
+04:08:12_07:30:38 Received: 00030 # "Accel.Min", "Number"
+
+04:08:12_07:30:38 Received: 00030 %
+
+04:08:12_07:30:39 Sent: 00040 EnumAllProp(Tool.PtMeasPar())
+
+04:08:12_07:30:39 Received: 00040 &
+
+04:08:12_07:30:39 Received: 00040 # "Speed", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Speed", "Property"
+
+04:08:12_07:30:39 Received: 00040 # "Speed.Act", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Speed.Def", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Speed.Max", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Speed.Min", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Accel", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Accel", "Property"
+
+04:08:12_07:30:39 Received: 00040 # "Accel.Act", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Accel.Def", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Accel.Max", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Accel.Min", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Approach", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Approach", "Property"
+
+04:08:12_07:30:39 Received: 00040 # "Approach.Act", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Approach.Def", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Approach.Max", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Approach.Min", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Search", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Search", "Property"
+
+04:08:12_07:30:39 Received: 00040 # "Search.Act", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Search.Def", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Search.Max", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Search.Min", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Retract", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Retract", "Property"
+
+04:08:12_07:30:39 Received: 00040 # "Retract.Act", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Retract.Def", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Retract.Max", "Number"
+
+04:08:12_07:30:39 Received: 00040 # "Retract.Min", "Number"
+
+04:08:12_07:30:39 Received: 00040 %
+
+04:08:12_07:30:40 Sent: 00050 EnumAllProp(FoundTool.GoToPar())
+
+04:08:12_07:30:40 Received: 00050 &
+
+04:08:12_07:30:40 Received: 00050 # "Speed", "Number"
+
+04:08:12_07:30:40 Received: 00050 # "Speed", "Property"
+
+04:08:12_07:30:40 Received: 00050 # "Speed.Act", "Number"
+
+04:08:12_07:30:40 Received: 00050 # "Speed.Def", "Number"
+
+04:08:12_07:30:40 Received: 00050 # "Speed.Max", "Number"
+
+04:08:12_07:30:40 Received: 00050 # "Speed.Min", "Number"
+
+04:08:12_07:30:40 Received: 00050 # "Accel", "Number"
+
+04:08:12_07:30:40 Received: 00050 # "Accel", "Property"
+
+04:08:12_07:30:40 Received: 00050 # "Accel.Act", "Number"
+
+04:08:12_07:30:40 Received: 00050 # "Accel.Def", "Number"
+
+04:08:12_07:30:40 Received: 00050 # "Accel.Max", "Number"
+
+04:08:12_07:30:40 Received: 00050 # "Accel.Min", "Number"
+
+04:08:12_07:30:40 Received: 00050 %
+
+04:08:12_07:30:41 Sent: 00060 EnumAllProp(FoundTool.PtMeasPar())
+
+04:08:12_07:30:41 Received: 00060 &
+
+04:08:12_07:30:41 Received: 00060 # "Speed", "Number"
+
+04:08:12_07:30:41 Received: 00060 # "Speed", "Property"
+
+04:08:12_07:30:42 Received: 00060 # "Speed.Act", "Number"
+
+04:08:12_07:30:42 Received: 00060 # "Speed.Def", "Number"
+
+04:08:12_07:30:42 Received: 00060 # "Speed.Max", "Number"
+
+04:08:12_07:30:42 Received: 00060 # "Speed.Min", "Number"
+
+04:08:12_07:30:42 Received: 00060 # "Accel", "Number"
+
+04:08:12_07:30:42 Received: 00060 # "Accel", "Property"
+
+04:08:12_07:30:42 Received: 00060 # "Accel.Act", "Number"
+
+04:08:12_07:30:42 Received: 00060 # "Accel.Def", "Number"
+
+04:08:12_07:30:42 Received: 00060 # "Accel.Max", "Number"
+
+04:08:12_07:30:42 Received: 00060 # "Accel.Min", "Number"
+
+04:08:12_07:30:42 Received: 00060 # "Approach", "Number"
+
+04:08:12_07:30:42 Received: 00060 # "Approach", "Property"
+
+04:08:12_07:30:43 Received: 00060 # "Approach.Act", "Number"
+
+04:08:12_07:30:43 Received: 00060 # "Approach.Def", "Number"
+
+04:08:12_07:30:43 Received: 00060 # "Approach.Max", "Number"
+
+04:08:12_07:30:43 Received: 00060 # "Approach.Min", "Number"
+
+04:08:12_07:30:43 Received: 00060 # "Search", "Number"
+
+04:08:12_07:30:43 Received: 00060 # "Search", "Property"
+
+04:08:12_07:30:43 Received: 00060 # "Search.Act", "Number"
+
+04:08:12_07:30:43 Received: 00060 # "Search.Def", "Number"
+
+04:08:12_07:30:43 Received: 00060 # "Search.Max", "Number"
+
+04:08:12_07:30:43 Received: 00060 # "Search.Min", "Number"
+
+04:08:12_07:30:43 Received: 00060 # "Retract", "Number"
+
+04:08:12_07:30:43 Received: 00060 # "Retract", "Property"
+
+04:08:12_07:30:43 Received: 00060 # "Retract.Act", "Number"
+
+04:08:12_07:30:43 Received: 00060 # "Retract.Def", "Number"
+
+04:08:12_07:30:43 Received: 00060 # "Retract.Max", "Number"
+
+04:08:12_07:30:43 Received: 00060 # "Retract.Min", "Number"
+
+04:08:12_07:30:43 Received: 00060 %
+
+04:08:12_07:30:44 Sent: 00070 EnumAllProp(Tool.GoToPar.Speed())
+
+04:08:12_07:30:44 Received: 00070 &
+
+04:08:12_07:30:44 Received: 00070 # "Act", "Number"
+
+04:08:12_07:30:44 Received: 00070 # "Def", "Number"
+
+04:08:12_07:30:44 Received: 00070 # "Max", "Number"
+
+04:08:12_07:30:44 Received: 00070 # "Min", "Number"
+
+04:08:12_07:30:44 Received: 00070 %
+
+04:08:12_07:30:46 Sent: 00080 EnumAllProp(Tool.GoToPar.Accel())
+
+04:08:12_07:30:46 Received: 00080 &
+
+04:08:12_07:30:46 Received: 00080 # "Act", "Number"
+
+04:08:12_07:30:46 Received: 00080 # "Def", "Number"
+
+04:08:12_07:30:46 Received: 00080 # "Max", "Number"
+
+04:08:12_07:30:46 Received: 00080 # "Min", "Number"
+
+04:08:12_07:30:46 Received: 00080 %
+
+04:08:12_07:30:47 Sent: 00090 EnumAllProp(Tool.PtMeasPar.Speed())
+
+04:08:12_07:30:47 Received: 00090 &
+
+04:08:12_07:30:47 Received: 00090 # "Act", "Number"
+
+04:08:12_07:30:47 Received: 00090 # "Def", "Number"
+
+04:08:12_07:30:47 Received: 00090 # "Max", "Number"
+
+04:08:12_07:30:47 Received: 00090 # "Min", "Number"
+
+04:08:12_07:30:47 Received: 00090 %
+
+04:08:12_07:30:48 Sent: 00100 EnumAllProp(Tool.PtMeasPar.Accel())
+
+04:08:12_07:30:48 Received: 00100 &
+
+04:08:12_07:30:48 Received: 00100 # "Act", "Number"
+
+04:08:12_07:30:48 Received: 00100 # "Def", "Number"
+
+04:08:12_07:30:48 Received: 00100 # "Max", "Number"
+
+04:08:12_07:30:48 Received: 00100 # "Min", "Number"
+
+04:08:12_07:30:48 Received: 00100 %
+
+04:08:12_07:30:49 Sent: 00110 EnumAllProp(Tool.PtMeasPar.Approach())
+
+04:08:12_07:30:49 Received: 00110 &
+
+04:08:12_07:30:49 Received: 00110 # "Act", "Number"
+
+04:08:12_07:30:49 Received: 00110 # "Def", "Number"
+
+04:08:12_07:30:49 Received: 00110 # "Max", "Number"
+
+04:08:12_07:30:49 Received: 00110 # "Min", "Number"
+
+04:08:12_07:30:49 Received: 00110 %
+
+04:08:12_07:30:50 Sent: 00120 EnumAllProp(Tool.PtMeasPar.Retract())
+
+04:08:12_07:30:50 Received: 00120 &
+
+04:08:12_07:30:50 Received: 00120 # "Act", "Number"
+
+04:08:12_07:30:50 Received: 00120 # "Def", "Number"
+
+04:08:12_07:30:50 Received: 00120 # "Max", "Number"
+
+04:08:12_07:30:50 Received: 00120 # "Min", "Number"
+
+04:08:12_07:30:50 Received: 00120 %
+
+04:08:12_07:30:51 Sent: 00130 EnumAllProp(Tool.PtMeasPar.Search())
+
+04:08:12_07:30:51 Received: 00130 &
+
+04:08:12_07:30:51 Received: 00130 # "Act", "Number"
+
+04:08:12_07:30:51 Received: 00130 # "Def", "Number"
+
+04:08:12_07:30:51 Received: 00130 # "Max", "Number"
+
+04:08:12_07:30:51 Received: 00130 # "Min", "Number"
+
+04:08:12_07:30:52 Received: 00130 %
+
+04:08:12_07:30:53 Sent: 00140 EnumAllProp(FoundTool.GoToPar.Speed())
+
+04:08:12_07:30:53 Received: 00140 &
+
+04:08:12_07:30:53 Received: 00140 # "Act", "Number"
+
+04:08:12_07:30:53 Received: 00140 # "Def", "Number"
+
+04:08:12_07:30:53 Received: 00140 # "Max", "Number"
+
+04:08:12_07:30:53 Received: 00140 # "Min", "Number"
+
+04:08:12_07:30:53 Received: 00140 %
+
+04:08:12_07:30:55 Sent: 00150 EnumAllProp(FoundTool.GoToPar.Accel())
+
+04:08:12_07:30:55 Received: 00150 &
+
+04:08:12_07:30:55 Received: 00150 # "Act", "Number"
+
+04:08:12_07:30:55 Received: 00150 # "Def", "Number"
+
+04:08:12_07:30:55 Received: 00150 # "Max", "Number"
+
+04:08:12_07:30:55 Received: 00150 # "Min", "Number"
+
+04:08:12_07:30:55 Received: 00150 %
+
+04:08:12_07:30:56 Sent: 00160 EnumAllProp(FoundTool.PtMeasPar.Speed())
+
+04:08:12_07:30:56 Received: 00160 &
+
+04:08:12_07:30:56 Received: 00160 # "Act", "Number"
+
+04:08:12_07:30:56 Received: 00160 # "Def", "Number"
+
+04:08:12_07:30:56 Received: 00160 # "Max", "Number"
+
+04:08:12_07:30:56 Received: 00160 # "Min", "Number"
+
+04:08:12_07:30:56 Received: 00160 %
+
+04:08:12_07:30:57 Sent: 00170 EnumAllProp(FoundTool.PtMeasPar.Accel())
+
+04:08:12_07:30:57 Received: 00170 &
+
+04:08:12_07:30:57 Received: 00170 # "Act", "Number"
+
+04:08:12_07:30:57 Received: 00170 # "Def", "Number"
+
+04:08:12_07:30:57 Received: 00170 # "Max", "Number"
+
+04:08:12_07:30:57 Received: 00170 # "Min", "Number"
+
+04:08:12_07:30:57 Received: 00170 %
+
+04:08:12_07:30:58 Sent: 00180 EnumAllProp(FoundTool.PtMeasPar.Approach())
+
+04:08:12_07:30:58 Received: 00180 &
+
+04:08:12_07:30:58 Received: 00180 # "Act", "Number"
+
+04:08:12_07:30:58 Received: 00180 # "Def", "Number"
+
+04:08:12_07:30:58 Received: 00180 # "Max", "Number"
+
+04:08:12_07:30:58 Received: 00180 # "Min", "Number"
+
+04:08:12_07:30:58 Received: 00180 %
+
+04:08:12_07:30:59 Sent: 00190 EnumAllProp(FoundTool.PtMeasPar.Retract())
+
+04:08:12_07:30:59 Received: 00190 &
+
+04:08:12_07:30:59 Received: 00190 # "Act", "Number"
+
+04:08:12_07:30:59 Received: 00190 # "Def", "Number"
+
+04:08:12_07:30:59 Received: 00190 # "Max", "Number"
+
+04:08:12_07:30:59 Received: 00190 # "Min", "Number"
+
+04:08:12_07:30:59 Received: 00190 %
+
+04:08:12_07:31:00 Sent: 00200 EnumAllProp(FoundTool.PtMeasPar.Search())
+
+04:08:12_07:31:00 Received: 00200 &
+
+04:08:12_07:31:00 Received: 00200 # "Act", "Number"
+
+04:08:12_07:31:00 Received: 00200 # "Def", "Number"
+
+04:08:12_07:31:00 Received: 00200 # "Max", "Number"
+
+04:08:12_07:31:00 Received: 00200 # "Min", "Number"
+
+04:08:12_07:31:00 Received: 00200 %
+
+04:08:12_07:31:01 Final Tag: 09999
+04:08:12_07:31:01 Sent: 09999 EndSession()
+
+04:08:12_07:31:01 Received: 09999 &
+
+04:08:12_07:31:01 Received: 09999 %
+
+04:08:12_07:31:01 Session completed
+04:08:12_07:31:02 Driver file completed

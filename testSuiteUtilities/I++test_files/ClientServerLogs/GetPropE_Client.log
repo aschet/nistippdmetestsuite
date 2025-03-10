@@ -1,0 +1,123 @@
+04:08:12_08:04:14 Sent: 00001 StartSession()
+
+04:08:12_08:04:14 Received: 00001 &
+
+04:08:12_08:04:14 Received: 00001 %
+
+04:08:12_08:04:15 Sent: 00005 ChangeTool("Probe1")
+
+04:08:12_08:04:15 Received: 00005 &
+
+04:08:12_08:04:15 Received: 00005 %
+
+04:08:12_08:04:16 Sent: 00007 FindTool("RefTool")
+
+04:08:12_08:04:16 Received: 00007 &
+
+04:08:12_08:04:16 Received: 00007 %
+
+04:08:12_08:04:16 Sent: E0010 GetPropE(Tool.Name())
+
+04:08:12_08:04:16 Received: E0010 &
+
+04:08:12_08:04:17 Received: E0010 # Tool.Name("Probe1")
+
+04:08:12_08:04:17 Received: E0010 %
+
+04:08:12_08:04:17 Sent: E0020 GetPropE(FoundTool.Name(), FoundTool.Id())
+
+04:08:12_08:04:17 Received: E0020 &
+
+04:08:12_08:04:18 Received: E0020 # FoundTool.Name("RefTool"), FoundTool.Id("RefToolId")
+
+04:08:12_08:04:18 Received: E0020 %
+
+04:08:12_08:04:18 Sent: E0030 GetPropE(Tool.GoToPar.Speed())
+
+04:08:12_08:04:18 Received: E0030 &
+
+04:08:12_08:04:18 Received: E0030 # Tool.GoToPar.Speed(20.00000)
+
+04:08:12_08:04:18 Received: E0030 %
+
+04:08:12_08:04:19 Sent: E0040 GetPropE(Tool.PtMeasPar.Accel(), Tool.PtMeasPar.Accel.Max())
+
+04:08:12_08:04:19 Received: E0040 &
+
+04:08:12_08:04:19 Received: E0040 # Tool.PtMeasPar.Accel(100.00000), Tool.PtMeasPar.Accel.Max(2000.00000)
+
+04:08:12_08:04:19 Received: E0040 %
+
+04:08:12_08:04:20 Sent: E0050 GetPropE(Tool.GoToPar.Accel.Act(), Tool.Name())
+
+04:08:12_08:04:20 Received: E0050 &
+
+04:08:12_08:04:20 Received: E0050 # Tool.GoToPar.Accel.Act(100.00000), Tool.Name("Probe1")
+
+04:08:12_08:04:20 Received: E0050 %
+
+04:08:12_08:04:21 Sent: E0060 GetPropE(Tool.PtMeasPar.Approach(), Tool.PtMeasPar.Retract(), Tool.PtMeasPar.Search())
+
+04:08:12_08:04:21 Received: E0060 &
+
+04:08:12_08:04:21 Received: E0060 # Tool.PtMeasPar.Approach(10.00000), Tool.PtMeasPar.Retract(10.00000), Tool.PtMeasPar.Search(10.00000)
+
+04:08:12_08:04:21 Received: E0060 %
+
+04:08:12_08:04:22 Sent: E0070 GetPropE(Tool.Alignment())
+
+04:08:12_08:04:22 Received: E0070 &
+
+04:08:12_08:04:22 Received: E0070 # Tool.Alignment(0.00000, 1.00000, 0.00000)
+
+04:08:12_08:04:22 Received: E0070 %
+
+04:08:12_08:04:23 Sent: E0080 GetPropE(Tool.Alignment())
+
+04:08:12_08:04:23 Received: E0080 &
+
+04:08:12_08:04:23 Received: E0080 # Tool.Alignment(0.00000, 1.00000, 0.00000)
+
+04:08:12_08:04:23 Received: E0080 %
+
+04:08:12_08:04:24 Sent: E0090 GetPropE(Tool.CollisionVolume())
+
+04:08:12_08:04:24 Received: E0090 &
+
+04:08:12_08:04:24 Received: E0090 # Tool.CollisionVolume(OBB,20.00000,20.00000,20.00000,10.00000,10.00000,10.00000,1.00000,0.00000,0.00000,0.00000,1.00000,0.00000,0.00000,0.00000,1.00000)
+
+04:08:12_08:04:24 Received: E0090 %
+
+04:08:12_08:04:25 Sent: E0100 GetPropE(Tool.CollisionVolume(), Tool.Name())
+
+04:08:12_08:04:25 Received: E0100 &
+
+04:08:12_08:04:25 Received: E0100 # Tool.CollisionVolume(OBB,20.00000,20.00000,20.00000,10.00000,10.00000,10.00000,1.00000,0.00000,0.00000,0.00000,1.00000,0.00000,0.00000,0.00000,1.00000), Tool.Name("Probe1")
+
+04:08:12_08:04:25 Received: E0100 %
+
+04:08:12_08:04:28 Sent: E0110 GetPropE(FoundTool.GoToPar.Speed.Def(), Tool.PtMeasPar.Approach.Def())
+
+04:08:12_08:04:28 Received: E0110 &
+
+04:08:12_08:04:28 Received: E0110 # FoundTool.GoToPar.Speed.Def(5.00000), Tool.PtMeasPar.Approach.Def(20.00000)
+
+04:08:12_08:04:28 Received: E0110 %
+
+04:08:12_08:04:30 Sent: E0120 GetPropE(Tool.CollisionVolume(), Tool.PtMeasPar.Approach.Def())
+
+04:08:12_08:04:30 Received: E0120 &
+
+04:08:12_08:04:30 Received: E0120 # Tool.CollisionVolume(OBB,20.00000,20.00000,20.00000,10.00000,10.00000,10.00000,1.00000,0.00000,0.00000,0.00000,1.00000,0.00000,0.00000,0.00000,1.00000), Tool.PtMeasPar.Approach.Def(20.00000)
+
+04:08:12_08:04:30 Received: E0120 %
+
+04:08:12_08:04:30 Final Tag: 09999
+04:08:12_08:04:30 Sent: 09999 EndSession()
+
+04:08:12_08:04:30 Received: 09999 &
+
+04:08:12_08:04:30 Received: 09999 %
+
+04:08:12_08:04:30 Session completed
+04:08:12_08:04:31 Driver file completed

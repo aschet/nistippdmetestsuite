@@ -1,0 +1,13 @@
+PtMeas.txt
+
+The PtMeas.prg file:
+starts a session
+gives commands needed to prepare for PtMeas commands
+calls PtMeas with two instances each of four, three, two, and one
+arguments, intermingled with various OnPtMeasReport commands
+ends the session
+
+The PtMeas.res file contains responses to the commands in the PtMeas.prg
+file. The formats of the responses to the PtMeas commands correspond to
+the formats of the OnPtMeasReport commands.
+

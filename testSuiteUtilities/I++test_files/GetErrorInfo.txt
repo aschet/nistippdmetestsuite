@@ -1,0 +1,10 @@
+GetErrorInfo.txt
+
+The GetErrorInfo.prg file:
+starts a session,
+calls GetErrorInfo,
+ends the session.
+
+The GetErrorInfo.res file contains the responses to the commands in
+the GetErrorInfo.prg file.
+

@@ -1,0 +1,213 @@
+04:08:12_09:17:35 Sent: 00001 StartSession()
+
+04:08:12_09:17:35 Received: 00001 &
+
+04:08:12_09:17:35 Received: 00001 %
+
+04:08:12_09:17:36 Sent: 00010 OnScanReport(R(), X(), Y(), Z(), Tool.A(), Tool.B(), Tool.C())
+
+04:08:12_09:17:36 Received: 00010 &
+
+04:08:12_09:17:36 Received: 00010 %
+
+04:08:12_09:17:37 Sent: 00020 OnScanReport(X(), Y(), Tool.A(), R(), Tool.B(), Z(), Tool.C())
+
+04:08:12_09:17:37 Received: 00020 &
+
+04:08:12_09:17:38 Received: 00020 %
+
+04:08:12_09:17:38 Sent: 00030 OnScanReport(X(), Y(), Z(), Tool.A(), Tool.B(), Tool.C())
+
+04:08:12_09:17:38 Received: 00030 &
+
+04:08:12_09:17:38 Received: 00030 %
+
+04:08:12_09:17:39 Sent: 00040 OnScanReport(X(), Y(), Tool.A(), Tool.B(), Z(), Tool.C())
+
+04:08:12_09:17:39 Received: 00040 &
+
+04:08:12_09:17:39 Received: 00040 %
+
+04:08:12_09:17:40 Sent: 00050 OnScanReport(Y(), Tool.A(), Tool.B(), Z(), Tool.C())
+
+04:08:12_09:17:40 Received: 00050 &
+
+04:08:12_09:17:40 Received: 00050 %
+
+04:08:12_09:17:41 Sent: 00060 OnScanReport(X(), Y(), Tool.A(), Z(), Tool.C())
+
+04:08:12_09:17:41 Received: 00060 &
+
+04:08:12_09:17:41 Received: 00060 %
+
+04:08:12_09:17:42 Sent: 00070 OnScanReport(X(), Tool.B(), Z(), Tool.C())
+
+04:08:12_09:17:42 Received: 00070 &
+
+04:08:12_09:17:42 Received: 00070 %
+
+04:08:12_09:17:42 Sent: 00080 OnScanReport(Y(), Tool.A(), Tool.B(), Z())
+
+04:08:12_09:17:42 Received: 00080 &
+
+04:08:12_09:17:42 Received: 00080 %
+
+04:08:12_09:17:43 Sent: 00090 OnScanReport(X(), Tool.B(), Z())
+
+04:08:12_09:17:43 Received: 00090 &
+
+04:08:12_09:17:43 Received: 00090 %
+
+04:08:12_09:17:44 Sent: 00100 OnScanReport(X(), Y(), Z())
+
+04:08:12_09:17:44 Received: 00100 &
+
+04:08:12_09:17:44 Received: 00100 %
+
+04:08:12_09:17:44 Sent: 00110 OnScanReport(X(), Z(), Y())
+
+04:08:12_09:17:44 Received: 00110 &
+
+04:08:12_09:17:44 Received: 00110 %
+
+04:08:12_09:17:45 Sent: 00120 OnScanReport(Y(), X(), Z())
+
+04:08:12_09:17:45 Received: 00120 &
+
+04:08:12_09:17:45 Received: 00120 %
+
+04:08:12_09:17:46 Sent: 00130 OnScanReport(Y(), Z(), X())
+
+04:08:12_09:17:46 Received: 00130 &
+
+04:08:12_09:17:46 Received: 00130 %
+
+04:08:12_09:17:46 Sent: 00140 OnScanReport(Z(), X(), Y())
+
+04:08:12_09:17:47 Received: 00140 &
+
+04:08:12_09:17:47 Received: 00140 %
+
+04:08:12_09:17:47 Sent: 00150 OnScanReport(Z(), Y(), X())
+
+04:08:12_09:17:47 Received: 00150 &
+
+04:08:12_09:17:47 Received: 00150 %
+
+04:08:12_09:17:48 Sent: 00160 OnScanReport(X(), Y())
+
+04:08:12_09:17:48 Received: 00160 &
+
+04:08:12_09:17:48 Received: 00160 %
+
+04:08:12_09:17:48 Sent: 00170 OnScanReport(X(), Z())
+
+04:08:12_09:17:48 Received: 00170 &
+
+04:08:12_09:17:48 Received: 00170 %
+
+04:08:12_09:17:49 Sent: 00180 OnScanReport(Y(), X())
+
+04:08:12_09:17:49 Received: 00180 &
+
+04:08:12_09:17:49 Received: 00180 %
+
+04:08:12_09:17:49 Sent: 00190 OnScanReport(Y(), Z())
+
+04:08:12_09:17:49 Received: 00190 &
+
+04:08:12_09:17:49 Received: 00190 %
+
+04:08:12_09:17:50 Sent: 00200 OnScanReport(Z(), X())
+
+04:08:12_09:17:50 Received: 00200 &
+
+04:08:12_09:17:50 Received: 00200 %
+
+04:08:12_09:17:50 Sent: 00210 OnScanReport(Z(), Y())
+
+04:08:12_09:17:50 Received: 00210 &
+
+04:08:12_09:17:50 Received: 00210 %
+
+04:08:12_09:17:51 Sent: 00220 OnScanReport(R())
+
+04:08:12_09:17:51 Received: 00220 &
+
+04:08:12_09:17:51 Received: 00220 %
+
+04:08:12_09:17:51 Sent: 00230 OnScanReport(X())
+
+04:08:12_09:17:51 Received: 00230 &
+
+04:08:12_09:17:51 Received: 00230 %
+
+04:08:12_09:17:52 Sent: 00240 OnScanReport(Y())
+
+04:08:12_09:17:52 Received: 00240 &
+
+04:08:12_09:17:52 Received: 00240 %
+
+04:08:12_09:17:52 Sent: 00250 OnScanReport(Z())
+
+04:08:12_09:17:52 Received: 00250 &
+
+04:08:12_09:17:52 Received: 00250 %
+
+04:08:12_09:17:53 Sent: 00260 OnScanReport(Tool.A())
+
+04:08:12_09:17:53 Received: 00260 &
+
+04:08:12_09:17:53 Received: 00260 %
+
+04:08:12_09:17:54 Sent: 00270 OnScanReport(Tool.B())
+
+04:08:12_09:17:54 Received: 00270 &
+
+04:08:12_09:17:54 Received: 00270 %
+
+04:08:12_09:17:54 Sent: 00280 OnScanReport(Tool.C())
+
+04:08:12_09:17:54 Received: 00280 &
+
+04:08:12_09:17:54 Received: 00280 %
+
+04:08:12_09:17:55 Sent: 00290 OnScanReport(Q())
+
+04:08:12_09:17:55 Received: 00290 &
+
+04:08:12_09:17:55 Received: 00290 %
+
+04:08:12_09:17:55 Sent: 00300 OnScanReport(Q(), R(), X(), Y(), Z(), Tool.A(), Tool.B(), Tool.C())
+
+04:08:12_09:17:55 Received: 00300 &
+
+04:08:12_09:17:55 Received: 00300 %
+
+04:08:12_09:17:56 Sent: 00310 OnScanReport(ER())
+
+04:08:12_09:17:56 Received: 00310 &
+
+04:08:12_09:17:56 Received: 00310 %
+
+04:08:12_09:17:57 Sent: 00320 OnScanReport(IJK())
+
+04:08:12_09:17:57 Received: 00320 &
+
+04:08:12_09:17:57 Received: 00320 %
+
+04:08:12_09:17:58 Sent: 00330 OnScanReport(ER(),IJK(),Q(),R(),X(),Y(),Z(),Tool.A(),Tool.B(),Tool.C())
+
+04:08:12_09:17:58 Received: 00330 &
+
+04:08:12_09:17:58 Received: 00330 %
+
+04:08:12_09:17:58 Final Tag: 09999
+04:08:12_09:17:58 Sent: 09999 EndSession()
+
+04:08:12_09:17:58 Received: 09999 &
+
+04:08:12_09:17:58 Received: 09999 %
+
+04:08:12_09:17:58 Session completed
+04:08:12_09:17:59 Driver file completed

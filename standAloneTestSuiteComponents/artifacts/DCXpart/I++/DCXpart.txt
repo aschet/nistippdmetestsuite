@@ -1,0 +1,45 @@
+DCXpart.txt
+
+The DCXpart.prg file is an I++ command file that can be used to
+drive a CMM to inspect the DaimlerChrysler test part.  The file is written
+using the following assumptions.
+1. Part location
+   a. The part is located flat on its back in the center of the table of
+      the CMM.
+   b. The longest edges of the part are parallel to the front of the CMM.
+   c. The origin of the machine coordinate system is at the bottom of
+      the center hole of the DCX part.
+2. Machine coordinate system
+   a. The origin of the machine coordinate system is on the CMM table.
+   b. The positive Z-axis of the machine coordinate system points up
+      from the table.
+   c. The positive X-axis of the machine coordinate system is parallel to
+      the front of the CMM and points toward the right side of the CMM.
+
+If the assumptions about the machine coordinate system are not correct, the
+file can be processed using the CSYmover utility (part of the NIST I++ DME
+test suite) to produce an output file with a few lines added near the
+beginning that enable the output file to run a machine with a different
+coordinate system. Read the documentation of the CSYmover utility to see
+how this is done.
+
+The physical activities this file performs are:
+1. Home the machine
+2. Change tool to Probe1
+3. Probe 4 points on the top of the part.
+4. Probe 4 points on the front side of the part.
+5. Probe 4 points on the left side of the part.
+6. Probe 8 points inside the large hole in the center of the part.
+7. Probe 8 points inside the small hole in the center of the part.
+8. Repeat steps 3 through 7 (using a smaller approach and retract distance).
+9. Go to park position and stop.
+
+The DCXpart.res file contains responses to the commands in the
+the DCXpart.prg file.
+
+These two files were made by extracting commands and responses from a log
+file made by a client during an actual inspection of the DCX part,
+performed by executing a DMIS program (twice).  The commands and responses
+have been heavily edited. The response file contains responses to an
+OnMoveReportE command scattered throughout, which is realistic. Over 90%
+of those responses in the original log file have been removed.

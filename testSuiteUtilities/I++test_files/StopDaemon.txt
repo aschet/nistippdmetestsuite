@@ -1,0 +1,13 @@
+StopDaemon.txt
+
+The StopDaemon.prg file:
+starts a session
+calls OnMoveReportE to start a daemon
+calls StopDaemon incorrectly to cause an error
+clears the error
+calls StopDaemon correctly
+ends the session
+
+The StopDaemon.res file contains responses to the commands in the
+StopDaemon.prg file.
+

@@ -1,0 +1,6 @@
+KeyPressE.txt
+
+The KeyPressE.res file contains three server initiated KeyPress
+responses. There is no KeyPressE.prg file since these are not
+responses to commands.
+

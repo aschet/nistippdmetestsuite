@@ -1,0 +1,12 @@
+IsHomed.txt
+
+The IsHomed.prg file:
+starts a session
+calls IsHomed
+calls Home
+calls IsHomed again
+stops the session
+
+The IsHomed.res file contains responses to the commands in the
+IsHomed.prg file.
+

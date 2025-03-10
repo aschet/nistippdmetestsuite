@@ -1,0 +1,444 @@
+04:08:12_10:15:55 received: 00001 StartSession()
+
+04:08:12_10:15:55 Sent: 00001 &
+
+04:08:12_10:15:55 Sent: 00001 %
+
+04:08:12_10:15:56 received: 00005 ChangeTool("Probe1")
+
+04:08:12_10:15:56 Sent: 00005 &
+
+04:08:12_10:15:56 Sent: 00005 %
+
+04:08:12_10:15:57 received: 00007 FindTool("RefTool")
+
+04:08:12_10:15:57 Sent: 00007 &
+
+04:08:12_10:15:57 Sent: 00007 %
+
+04:08:12_10:15:58 received: 00010 SetProp(Tool.PtMeasPar.Accel(5.42E01))
+
+04:08:12_10:15:58 Sent: 00010 &
+
+04:08:12_10:15:58 Sent: 00010 %
+
+04:08:12_10:16:00 received: 00015 GetProp(Tool.PtMeasPar.Accel())
+
+04:08:12_10:16:00 Sent: 00015 &
+
+04:08:12_10:16:00 Sent: 00015 # Tool.PtMeasPar.Accel(54.20000)
+
+04:08:12_10:16:00 Sent: 00015 %
+
+04:08:12_10:16:01 received: 00020 SetProp(Tool.PtMeasPar.Accel.Act(6.42))
+
+04:08:12_10:16:01 Sent: 00020 &
+
+04:08:12_10:16:01 Sent: 00020 %
+
+04:08:12_10:16:03 received: 00025 GetProp(Tool.PtMeasPar.Accel.Act())
+
+04:08:12_10:16:03 Sent: 00025 &
+
+04:08:12_10:16:03 Sent: 00025 # Tool.PtMeasPar.Accel.Act(6.42000)
+
+04:08:12_10:16:03 Sent: 00025 %
+
+04:08:12_10:16:04 received: 00030 SetProp(Tool.PtMeasPar.Speed(1.45))
+
+04:08:12_10:16:04 Sent: 00030 &
+
+04:08:12_10:16:04 Sent: 00030 %
+
+04:08:12_10:16:06 received: 00035 GetProp(Tool.PtMeasPar.Speed())
+
+04:08:12_10:16:06 Sent: 00035 &
+
+04:08:12_10:16:06 Sent: 00035 # Tool.PtMeasPar.Speed(1.45000)
+
+04:08:12_10:16:06 Sent: 00035 %
+
+04:08:12_10:16:07 received: 00040 SetProp(Tool.PtMeasPar.Speed.Act(1.55))
+
+04:08:12_10:16:07 Sent: 00040 &
+
+04:08:12_10:16:07 Sent: 00040 %
+
+04:08:12_10:16:08 received: 00045 GetProp(Tool.PtMeasPar.Speed.Act())
+
+04:08:12_10:16:08 Sent: 00045 &
+
+04:08:12_10:16:08 Sent: 00045 # Tool.PtMeasPar.Speed.Act(1.55000)
+
+04:08:12_10:16:08 Sent: 00045 %
+
+04:08:12_10:16:10 received: 00050 SetProp(Tool.PtMeasPar.Approach(2.77))
+
+04:08:12_10:16:10 Sent: 00050 &
+
+04:08:12_10:16:10 Sent: 00050 %
+
+04:08:12_10:16:11 received: 00055 GetProp(Tool.PtMeasPar.Approach())
+
+04:08:12_10:16:11 Sent: 00055 &
+
+04:08:12_10:16:12 Sent: 00055 # Tool.PtMeasPar.Approach(2.77000)
+
+04:08:12_10:16:12 Sent: 00055 %
+
+04:08:12_10:16:13 received: 00060 SetProp(Tool.PtMeasPar.Approach.Act(3.77))
+
+04:08:12_10:16:13 Sent: 00060 &
+
+04:08:12_10:16:13 Sent: 00060 %
+
+04:08:12_10:16:14 received: 00065 GetProp(Tool.PtMeasPar.Approach.Act())
+
+04:08:12_10:16:14 Sent: 00065 &
+
+04:08:12_10:16:14 Sent: 00065 # Tool.PtMeasPar.Approach.Act(3.77000)
+
+04:08:12_10:16:14 Sent: 00065 %
+
+04:08:12_10:16:17 received: 00070 SetProp(Tool.PtMeasPar.Retract(2.09))
+
+04:08:12_10:16:17 Sent: 00070 &
+
+04:08:12_10:16:17 Sent: 00070 %
+
+04:08:12_10:16:18 received: 00075 GetProp(Tool.PtMeasPar.Retract())
+
+04:08:12_10:16:18 Sent: 00075 &
+
+04:08:12_10:16:18 Sent: 00075 # Tool.PtMeasPar.Retract(2.09000)
+
+04:08:12_10:16:18 Sent: 00075 %
+
+04:08:12_10:16:19 received: 00080 SetProp(Tool.PtMeasPar.Retract.Act(3.09))
+
+04:08:12_10:16:19 Sent: 00080 &
+
+04:08:12_10:16:19 Sent: 00080 %
+
+04:08:12_10:16:20 received: 00085 GetProp(Tool.PtMeasPar.Retract.Act())
+
+04:08:12_10:16:20 Sent: 00085 &
+
+04:08:12_10:16:20 Sent: 00085 # Tool.PtMeasPar.Retract.Act(3.09000)
+
+04:08:12_10:16:20 Sent: 00085 %
+
+04:08:12_10:16:21 received: 00090 SetProp(Tool.PtMeasPar.Search(1.508))
+
+04:08:12_10:16:21 Sent: 00090 &
+
+04:08:12_10:16:21 Sent: 00090 %
+
+04:08:12_10:16:22 received: 00095 GetProp(Tool.PtMeasPar.Search())
+
+04:08:12_10:16:22 Sent: 00095 &
+
+04:08:12_10:16:22 Sent: 00095 # Tool.PtMeasPar.Search(1.50800)
+
+04:08:12_10:16:22 Sent: 00095 %
+
+04:08:12_10:16:23 received: 00100 SetProp(Tool.PtMeasPar.Search.Act(2.508))
+
+04:08:12_10:16:23 Sent: 00100 &
+
+04:08:12_10:16:23 Sent: 00100 %
+
+04:08:12_10:16:24 received: 00105 GetProp(Tool.PtMeasPar.Search.Act())
+
+04:08:12_10:16:24 Sent: 00105 &
+
+04:08:12_10:16:24 Sent: 00105 # Tool.PtMeasPar.Search.Act(2.50800)
+
+04:08:12_10:16:24 Sent: 00105 %
+
+04:08:12_10:16:25 received: 00110 SetProp(Tool.GoToPar.Accel(5.42E01))
+
+04:08:12_10:16:25 Sent: 00110 &
+
+04:08:12_10:16:25 Sent: 00110 %
+
+04:08:12_10:16:25 received: 00115 GetProp(Tool.GoToPar.Accel())
+
+04:08:12_10:16:25 Sent: 00115 &
+
+04:08:12_10:16:25 Sent: 00115 # Tool.GoToPar.Accel(54.20000)
+
+04:08:12_10:16:25 Sent: 00115 %
+
+04:08:12_10:16:26 received: 00120 SetProp(Tool.GoToPar.Accel.Act(6.42E01))
+
+04:08:12_10:16:26 Sent: 00120 &
+
+04:08:12_10:16:26 Sent: 00120 %
+
+04:08:12_10:16:27 received: 00125 GetProp(Tool.GoToPar.Accel.Act())
+
+04:08:12_10:16:27 Sent: 00125 &
+
+04:08:12_10:16:27 Sent: 00125 # Tool.GoToPar.Accel.Act(64.20000)
+
+04:08:12_10:16:27 Sent: 00125 %
+
+04:08:12_10:16:27 received: 00130 SetProp(Tool.GoToPar.Speed(5.45))
+
+04:08:12_10:16:27 Sent: 00130 &
+
+04:08:12_10:16:27 Sent: 00130 %
+
+04:08:12_10:16:28 received: 00135 GetProp(Tool.GoToPar.Speed())
+
+04:08:12_10:16:28 Sent: 00135 &
+
+04:08:12_10:16:28 Sent: 00135 # Tool.GoToPar.Speed(5.45000)
+
+04:08:12_10:16:28 Sent: 00135 %
+
+04:08:12_10:16:29 received: 00140 SetProp(Tool.GoToPar.Speed.Act(5.55))
+
+04:08:12_10:16:29 Sent: 00140 &
+
+04:08:12_10:16:29 Sent: 00140 %
+
+04:08:12_10:16:30 received: 00145 GetProp(Tool.GoToPar.Speed.Act())
+
+04:08:12_10:16:30 Sent: 00145 &
+
+04:08:12_10:16:30 Sent: 00145 # Tool.GoToPar.Speed.Act(5.55000)
+
+04:08:12_10:16:30 Sent: 00145 %
+
+04:08:12_10:16:30 received: 00150 SetProp(FoundTool.PtMeasPar.Accel(5.42E01))
+
+04:08:12_10:16:30 Sent: 00150 &
+
+04:08:12_10:16:30 Sent: 00150 %
+
+04:08:12_10:16:31 received: 00155 GetProp(FoundTool.PtMeasPar.Accel())
+
+04:08:12_10:16:31 Sent: 00155 &
+
+04:08:12_10:16:31 Sent: 00155 # FoundTool.PtMeasPar.Accel(54.20000)
+
+04:08:12_10:16:31 Sent: 00155 %
+
+04:08:12_10:16:32 received: 00160 SetProp(FoundTool.PtMeasPar.Accel.Act(6.42E01))
+
+04:08:12_10:16:32 Sent: 00160 &
+
+04:08:12_10:16:32 Sent: 00160 %
+
+04:08:12_10:16:32 received: 00165 GetProp(FoundTool.PtMeasPar.Accel.Act())
+
+04:08:12_10:16:32 Sent: 00165 &
+
+04:08:12_10:16:32 Sent: 00165 # FoundTool.PtMeasPar.Accel.Act(64.20000)
+
+04:08:12_10:16:32 Sent: 00165 %
+
+04:08:12_10:16:33 received: 00170 SetProp(FoundTool.PtMeasPar.Speed(2.45))
+
+04:08:12_10:16:33 Sent: 00170 &
+
+04:08:12_10:16:34 Sent: 00170 %
+
+04:08:12_10:16:34 received: 00175 GetProp(FoundTool.PtMeasPar.Speed())
+
+04:08:12_10:16:34 Sent: 00175 &
+
+04:08:12_10:16:34 Sent: 00175 # FoundTool.PtMeasPar.Speed(2.45000)
+
+04:08:12_10:16:34 Sent: 00175 %
+
+04:08:12_10:16:35 received: 00180 SetProp(FoundTool.PtMeasPar.Speed.Act(2.55))
+
+04:08:12_10:16:35 Sent: 00180 &
+
+04:08:12_10:16:35 Sent: 00180 %
+
+04:08:12_10:16:36 received: 00185 GetProp(FoundTool.PtMeasPar.Speed.Act())
+
+04:08:12_10:16:36 Sent: 00185 &
+
+04:08:12_10:16:36 Sent: 00185 # FoundTool.PtMeasPar.Speed.Act(2.55000)
+
+04:08:12_10:16:36 Sent: 00185 %
+
+04:08:12_10:16:37 received: 00190 SetProp(FoundTool.PtMeasPar.Approach(2.77))
+
+04:08:12_10:16:37 Sent: 00190 &
+
+04:08:12_10:16:37 Sent: 00190 %
+
+04:08:12_10:16:38 received: 00195 GetProp(FoundTool.PtMeasPar.Approach())
+
+04:08:12_10:16:38 Sent: 00195 &
+
+04:08:12_10:16:38 Sent: 00195 # FoundTool.PtMeasPar.Approach(2.77000)
+
+04:08:12_10:16:38 Sent: 00195 %
+
+04:08:12_10:16:38 received: 00200 SetProp(FoundTool.PtMeasPar.Approach.Act(3.77))
+
+04:08:12_10:16:38 Sent: 00200 &
+
+04:08:12_10:16:38 Sent: 00200 %
+
+04:08:12_10:16:39 received: 00205 GetProp(FoundTool.PtMeasPar.Approach.Act())
+
+04:08:12_10:16:39 Sent: 00205 &
+
+04:08:12_10:16:39 Sent: 00205 # FoundTool.PtMeasPar.Approach.Act(3.77000)
+
+04:08:12_10:16:39 Sent: 00205 %
+
+04:08:12_10:16:40 received: 00210 SetProp(FoundTool.PtMeasPar.Retract(2.09))
+
+04:08:12_10:16:40 Sent: 00210 &
+
+04:08:12_10:16:40 Sent: 00210 %
+
+04:08:12_10:16:41 received: 00215 GetProp(FoundTool.PtMeasPar.Retract())
+
+04:08:12_10:16:41 Sent: 00215 &
+
+04:08:12_10:16:41 Sent: 00215 # FoundTool.PtMeasPar.Retract(2.09000)
+
+04:08:12_10:16:41 Sent: 00215 %
+
+04:08:12_10:16:42 received: 00220 SetProp(FoundTool.PtMeasPar.Retract.Act(3.09))
+
+04:08:12_10:16:42 Sent: 00220 &
+
+04:08:12_10:16:42 Sent: 00220 %
+
+04:08:12_10:16:43 received: 00225 GetProp(FoundTool.PtMeasPar.Retract.Act())
+
+04:08:12_10:16:43 Sent: 00225 &
+
+04:08:12_10:16:43 Sent: 00225 # FoundTool.PtMeasPar.Retract.Act(3.09000)
+
+04:08:12_10:16:43 Sent: 00225 %
+
+04:08:12_10:16:43 received: 00230 SetProp(FoundTool.PtMeasPar.Search(1.508))
+
+04:08:12_10:16:43 Sent: 00230 &
+
+04:08:12_10:16:43 Sent: 00230 %
+
+04:08:12_10:16:49 received: 00235 GetProp(FoundTool.PtMeasPar.Search())
+
+04:08:12_10:16:49 Sent: 00235 &
+
+04:08:12_10:16:49 Sent: 00235 # FoundTool.PtMeasPar.Search(1.50800)
+
+04:08:12_10:16:49 Sent: 00235 %
+
+04:08:12_10:16:49 received: 00240 SetProp(FoundTool.PtMeasPar.Search.Act(2.508))
+
+04:08:12_10:16:49 Sent: 00240 &
+
+04:08:12_10:16:49 Sent: 00240 %
+
+04:08:12_10:16:50 received: 00245 GetProp(FoundTool.PtMeasPar.Search.Act())
+
+04:08:12_10:16:50 Sent: 00245 &
+
+04:08:12_10:16:50 Sent: 00245 # FoundTool.PtMeasPar.Search.Act(2.50800)
+
+04:08:12_10:16:50 Sent: 00245 %
+
+04:08:12_10:16:51 received: 00250 SetProp(FoundTool.GoToPar.Accel(5.42E01))
+
+04:08:12_10:16:51 Sent: 00250 &
+
+04:08:12_10:16:51 Sent: 00250 %
+
+04:08:12_10:16:51 received: 00255 GetProp(FoundTool.GoToPar.Accel())
+
+04:08:12_10:16:51 Sent: 00255 &
+
+04:08:12_10:16:51 Sent: 00255 # FoundTool.GoToPar.Accel(54.20000)
+
+04:08:12_10:16:51 Sent: 00255 %
+
+04:08:12_10:16:52 received: 00260 SetProp(FoundTool.GoToPar.Accel.Act(6.42E01))
+
+04:08:12_10:16:52 Sent: 00260 &
+
+04:08:12_10:16:52 Sent: 00260 %
+
+04:08:12_10:16:56 received: 00265 GetProp(FoundTool.GoToPar.Accel.Act())
+
+04:08:12_10:16:56 Sent: 00265 &
+
+04:08:12_10:16:56 Sent: 00265 # FoundTool.GoToPar.Accel.Act(64.20000)
+
+04:08:12_10:16:56 Sent: 00265 %
+
+04:08:12_10:17:00 received: 00270 SetProp (FoundTool.GoToPar.Speed(6.45))
+
+04:08:12_10:17:00 Sent: 00270 &
+
+04:08:12_10:17:00 Sent: 00270 %
+
+04:08:12_10:17:01 received: 00275 GetProp (FoundTool.GoToPar.Speed())
+
+04:08:12_10:17:01 Sent: 00275 &
+
+04:08:12_10:17:01 Sent: 00275 # FoundTool.GoToPar.Speed(6.45000)
+
+04:08:12_10:17:01 Sent: 00275 %
+
+04:08:12_10:17:02 received: 00280 SetProp (FoundTool.GoToPar.Speed.Act(6.55))
+
+04:08:12_10:17:02 Sent: 00280 &
+
+04:08:12_10:17:02 Sent: 00280 %
+
+04:08:12_10:17:03 received: 00285 GetProp (FoundTool.GoToPar.Speed.Act())
+
+04:08:12_10:17:03 Sent: 00285 &
+
+04:08:12_10:17:03 Sent: 00285 # FoundTool.GoToPar.Speed.Act(6.55000)
+
+04:08:12_10:17:03 Sent: 00285 %
+
+04:08:12_10:17:03 received: 00290 SetProp(FoundTool.GoToPar.Speed(7.45), FoundTool.PtMeasPar.Speed(3.45))
+
+04:08:12_10:17:03 Sent: 00290 &
+
+04:08:12_10:17:03 Sent: 00290 %
+
+04:08:12_10:17:04 received: 00295 GetProp(FoundTool.GoToPar.Speed(), FoundTool.PtMeasPar.Speed())
+
+04:08:12_10:17:04 Sent: 00295 &
+
+04:08:12_10:17:04 Sent: 00295 # FoundTool.GoToPar.Speed(7.45000), FoundTool.PtMeasPar.Speed(3.45000)
+
+04:08:12_10:17:04 Sent: 00295 %
+
+04:08:12_10:17:05 received: 00300 SetProp(Tool.PtMeasPar.Approach(2.77), Tool.PtMeasPar.Retract(2.09) , Tool.PtMeasPar.Search(1.508))
+
+04:08:12_10:17:05 Sent: 00300 &
+
+04:08:12_10:17:05 Sent: 00300 %
+
+04:08:12_10:17:05 received: 00305 GetProp(Tool.PtMeasPar.Approach(), Tool.PtMeasPar.Retract() , Tool.PtMeasPar.Search())
+
+04:08:12_10:17:05 Sent: 00305 &
+
+04:08:12_10:17:05 Sent: 00305 # Tool.PtMeasPar.Approach(2.77000), Tool.PtMeasPar.Retract(2.09000), Tool.PtMeasPar.Search(1.50800)
+
+04:08:12_10:17:05 Sent: 00305 %
+
+04:08:12_10:17:06 received: 09999 EndSession()
+
+04:08:12_10:17:06 Sent: 09999 &
+
+04:08:12_10:17:06 Sent: 09999 %
+

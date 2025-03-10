@@ -1,0 +1,23 @@
+04:08:12_07:57:52 Sent: 00001 StartSession()
+
+04:08:12_07:57:52 Received: 00001 &
+
+04:08:12_07:57:52 Received: 00001 %
+
+04:08:12_07:57:53 Sent: 00010 GetErrorInfo(0513)
+
+04:08:12_07:57:53 Received: 00010 &
+
+04:08:12_07:57:53 Received: 00010 # "Daemon does not exist"
+
+04:08:12_07:57:53 Received: 00010 %
+
+04:08:12_07:57:55 Final Tag: 09999
+04:08:12_07:57:55 Sent: 09999 EndSession()
+
+04:08:12_07:57:55 Received: 09999 &
+
+04:08:12_07:57:55 Received: 09999 %
+
+04:08:12_07:57:55 Session completed
+04:08:12_07:57:55 Driver file completed

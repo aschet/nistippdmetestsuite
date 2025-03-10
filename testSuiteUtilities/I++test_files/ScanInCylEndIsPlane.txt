@@ -1,0 +1,12 @@
+ScanInCylEndIsPlane.txt
+
+The ScanInCylEndIsPlane.prg file:
+starts a session
+calls Home
+calls ChangeTool
+calls ScanInCylEndIsPlane
+ends the session
+
+The ScanInCylEndIsPlane.res file contains responses to the commands in the
+The ScanInCylEndIsPlane.prg file.
+

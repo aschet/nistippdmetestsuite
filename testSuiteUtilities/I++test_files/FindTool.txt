@@ -1,0 +1,9 @@
+FindTool.txt
+
+The FindTool.prg file:
+starts a session,
+calls FindTool twice,
+ends the session.
+
+The FindTool.res file responds to the commands in the FindTool.prg file.
+

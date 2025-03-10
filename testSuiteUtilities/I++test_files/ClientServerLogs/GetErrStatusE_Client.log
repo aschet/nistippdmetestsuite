@@ -1,0 +1,23 @@
+04:08:12_07:59:21 Sent: 00001 StartSession()
+
+04:08:12_07:59:21 Received: 00001 &
+
+04:08:12_07:59:21 Received: 00001 %
+
+04:08:12_07:59:22 Sent: E0010 GetErrStatusE()
+
+04:08:12_07:59:22 Received: E0010 &
+
+04:08:12_07:59:22 Received: E0010 # ErrStatus(0)
+
+04:08:12_07:59:22 Received: E0010 %
+
+04:08:12_07:59:23 Final Tag: 09999
+04:08:12_07:59:23 Sent: 09999 EndSession()
+
+04:08:12_07:59:23 Received: 09999 &
+
+04:08:12_07:59:23 Received: 09999 %
+
+04:08:12_07:59:23 Session completed
+04:08:12_07:59:25 Driver file completed

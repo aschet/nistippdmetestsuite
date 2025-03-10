@@ -1,0 +1,33 @@
+04:08:12_10:02:23 Sent: 00001 StartSession()
+
+04:08:12_10:02:23 Received: 00001 &
+
+04:08:12_10:02:23 Received: 00001 %
+
+04:08:12_10:02:25 Sent: 00010 ScanOnCircleHint(10.0, 1)
+
+04:08:12_10:02:25 Received: 00010 &
+
+04:08:12_10:02:25 Received: 00010 %
+
+04:08:12_10:02:26 Sent: 00020 ScanOnCircleHint(20, 2.45)
+
+04:08:12_10:02:26 Received: 00020 &
+
+04:08:12_10:02:26 Received: 00020 %
+
+04:08:12_10:02:28 Sent: 00030 ScanOnCircleHint(0, 0)
+
+04:08:12_10:02:28 Received: 00030 &
+
+04:08:12_10:02:28 Received: 00030 %
+
+04:08:12_10:02:29 Final Tag: 09999
+04:08:12_10:02:29 Sent: 09999 EndSession()
+
+04:08:12_10:02:29 Received: 09999 &
+
+04:08:12_10:02:29 Received: 09999 %
+
+04:08:12_10:02:29 Session completed
+04:08:12_10:02:32 Driver file completed

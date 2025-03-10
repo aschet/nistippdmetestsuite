@@ -1,0 +1,12 @@
+ScanOnCircle.txt
+
+The ScanOnCircle.prg file:
+starts a session
+calls Home
+calls ChangeTool
+calls ScanOnCircle twice
+ends the session
+
+The ScanOnCircle.res file contains responses to the commands in the
+The ScanOnCircle.prg file.
+

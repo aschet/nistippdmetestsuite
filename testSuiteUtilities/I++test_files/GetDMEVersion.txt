@@ -1,0 +1,10 @@
+GetDMEVersion.txt
+
+The GetDMEVersion.prg file:
+starts a session,
+calls GetDMEVersion,
+ends the session.
+
+The GetDMEVersion.res file contains the responses to the commands in
+the GetDMEVersion.prg file.
+

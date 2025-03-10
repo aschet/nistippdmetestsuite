@@ -1,0 +1,11 @@
+AlignTool.txt
+
+The AlignTool.prg file:
+starts a session,
+homes the machine (since the machine must be homed before other motion),
+gives two AlignTool commands (one in each of the two allowed forms),
+ends the session.
+
+The AlignTool.res file contains responses to the commands in the
+AlignTool.prg file.
+

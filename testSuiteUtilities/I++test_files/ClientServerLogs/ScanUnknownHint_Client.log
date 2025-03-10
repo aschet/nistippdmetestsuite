@@ -1,0 +1,33 @@
+04:08:12_10:12:08 Sent: 00001 StartSession()
+
+04:08:12_10:12:08 Received: 00001 &
+
+04:08:12_10:12:08 Received: 00001 %
+
+04:08:12_10:12:09 Sent: 00010 ScanUnknownHint(100.0)
+
+04:08:12_10:12:09 Received: 00010 &
+
+04:08:12_10:12:09 Received: 00010 %
+
+04:08:12_10:12:10 Sent: 00020 ScanUnknownHint(20)
+
+04:08:12_10:12:10 Received: 00020 &
+
+04:08:12_10:12:10 Received: 00020 %
+
+04:08:12_10:12:12 Sent: 00030 ScanUnknownHint(0.1)
+
+04:08:12_10:12:12 Received: 00030 &
+
+04:08:12_10:12:12 Received: 00030 %
+
+04:08:12_10:12:13 Final Tag: 09999
+04:08:12_10:12:13 Sent: 09999 EndSession()
+
+04:08:12_10:12:13 Received: 09999 &
+
+04:08:12_10:12:13 Received: 09999 %
+
+04:08:12_10:12:13 Session completed
+04:08:12_10:12:14 Driver file completed

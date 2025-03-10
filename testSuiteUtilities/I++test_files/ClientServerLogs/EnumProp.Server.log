@@ -1,0 +1,656 @@
+04:08:12_07:34:20 received: 00001 StartSession()
+
+04:08:12_07:34:20 Sent: 00001 &
+
+04:08:12_07:34:20 Sent: 00001 %
+
+04:08:12_07:34:21 received: 00005 ChangeTool("BaseTool")
+
+04:08:12_07:34:21 Sent: 00005 &
+
+04:08:12_07:34:21 Sent: 00005 %
+
+04:08:12_07:34:22 received: 00007 FindTool("RefTool")
+
+04:08:12_07:34:22 Sent: 00007 &
+
+04:08:12_07:34:22 Sent: 00007 %
+
+04:08:12_07:34:23 received: 00010 EnumProp(Tool())
+
+04:08:12_07:34:23 Sent: 00010 &
+
+04:08:12_07:34:23 Sent: 00010 # "GoToPar", "Property"
+
+04:08:12_07:34:23 Sent: 00010 # "PtMeasPar", "Property"
+
+04:08:12_07:34:23 Sent: 00010 %
+
+04:08:12_07:34:23 received: 00020 EnumProp(FoundTool())
+
+04:08:12_07:34:23 Sent: 00020 &
+
+04:08:12_07:34:24 Sent: 00020 # "GoToPar", "Property"
+
+04:08:12_07:34:24 Sent: 00020 # "PtMeasPar", "Property"
+
+04:08:12_07:34:24 Sent: 00020 %
+
+04:08:12_07:34:24 received: 00030 EnumProp(Tool.GoToPar())
+
+04:08:12_07:34:24 Sent: 00030 &
+
+04:08:12_07:34:24 Sent: 00030 # "Speed", "Number"
+
+04:08:12_07:34:24 Sent: 00030 # "Speed", "Property"
+
+04:08:12_07:34:24 Sent: 00030 # "Accel", "Number"
+
+04:08:12_07:34:24 Sent: 00030 # "Accel", "Property"
+
+04:08:12_07:34:24 Sent: 00030 %
+
+04:08:12_07:34:25 received: 00040 EnumProp(Tool.PtMeasPar())
+
+04:08:12_07:34:25 Sent: 00040 &
+
+04:08:12_07:34:25 Sent: 00040 # "Speed", "Number"
+
+04:08:12_07:34:25 Sent: 00040 # "Speed", "Property"
+
+04:08:12_07:34:25 Sent: 00040 # "Accel", "Number"
+
+04:08:12_07:34:25 Sent: 00040 # "Accel", "Property"
+
+04:08:12_07:34:25 Sent: 00040 # "Approach", "Number"
+
+04:08:12_07:34:25 Sent: 00040 # "Approach", "Property"
+
+04:08:12_07:34:25 Sent: 00040 # "Search", "Number"
+
+04:08:12_07:34:25 Sent: 00040 # "Search", "Property"
+
+04:08:12_07:34:25 Sent: 00040 # "Retract", "Number"
+
+04:08:12_07:34:25 Sent: 00040 # "Retract", "Property"
+
+04:08:12_07:34:25 Sent: 00040 %
+
+04:08:12_07:34:26 received: 00050 EnumProp(FoundTool.GoToPar())
+
+04:08:12_07:34:26 Sent: 00050 &
+
+04:08:12_07:34:26 Sent: 00050 # "Speed", "Number"
+
+04:08:12_07:34:26 Sent: 00050 # "Speed", "Property"
+
+04:08:12_07:34:26 Sent: 00050 # "Accel", "Number"
+
+04:08:12_07:34:26 Sent: 00050 # "Accel", "Property"
+
+04:08:12_07:34:26 Sent: 00050 %
+
+04:08:12_07:34:28 received: 00060 EnumProp(FoundTool.PtMeasPar())
+
+04:08:12_07:34:28 Sent: 00060 &
+
+04:08:12_07:34:28 Sent: 00060 # "Speed", "Number"
+
+04:08:12_07:34:28 Sent: 00060 # "Speed", "Property"
+
+04:08:12_07:34:28 Sent: 00060 # "Accel", "Number"
+
+04:08:12_07:34:28 Sent: 00060 # "Accel", "Property"
+
+04:08:12_07:34:28 Sent: 00060 # "Approach", "Number"
+
+04:08:12_07:34:28 Sent: 00060 # "Approach", "Property"
+
+04:08:12_07:34:28 Sent: 00060 # "Search", "Number"
+
+04:08:12_07:34:28 Sent: 00060 # "Search", "Property"
+
+04:08:12_07:34:28 Sent: 00060 # "Retract", "Number"
+
+04:08:12_07:34:28 Sent: 00060 # "Retract", "Property"
+
+04:08:12_07:34:28 Sent: 00060 %
+
+04:08:12_07:34:29 received: 00070 EnumProp(Tool.GoToPar.Speed())
+
+04:08:12_07:34:29 Sent: 00070 &
+
+04:08:12_07:34:29 Sent: 00070 # "Act", "Number"
+
+04:08:12_07:34:29 Sent: 00070 # "Def", "Number"
+
+04:08:12_07:34:29 Sent: 00070 # "Max", "Number"
+
+04:08:12_07:34:29 Sent: 00070 # "Min", "Number"
+
+04:08:12_07:34:29 Sent: 00070 %
+
+04:08:12_07:34:30 received: 00080 EnumProp(Tool.GoToPar.Accel())
+
+04:08:12_07:34:30 Sent: 00080 &
+
+04:08:12_07:34:30 Sent: 00080 # "Act", "Number"
+
+04:08:12_07:34:30 Sent: 00080 # "Def", "Number"
+
+04:08:12_07:34:30 Sent: 00080 # "Max", "Number"
+
+04:08:12_07:34:30 Sent: 00080 # "Min", "Number"
+
+04:08:12_07:34:30 Sent: 00080 %
+
+04:08:12_07:34:33 received: 00090 EnumProp(Tool.PtMeasPar.Speed())
+
+04:08:12_07:34:33 Sent: 00090 &
+
+04:08:12_07:34:33 Sent: 00090 # "Act", "Number"
+
+04:08:12_07:34:33 Sent: 00090 # "Def", "Number"
+
+04:08:12_07:34:33 Sent: 00090 # "Max", "Number"
+
+04:08:12_07:34:33 Sent: 00090 # "Min", "Number"
+
+04:08:12_07:34:33 Sent: 00090 %
+
+04:08:12_07:34:33 received: 00100 EnumProp(Tool.PtMeasPar.Accel())
+
+04:08:12_07:34:33 Sent: 00100 &
+
+04:08:12_07:34:33 Sent: 00100 # "Act", "Number"
+
+04:08:12_07:34:33 Sent: 00100 # "Def", "Number"
+
+04:08:12_07:34:33 Sent: 00100 # "Max", "Number"
+
+04:08:12_07:34:33 Sent: 00100 # "Min", "Number"
+
+04:08:12_07:34:33 Sent: 00100 %
+
+04:08:12_07:34:34 received: 00110 EnumProp(Tool.PtMeasPar.Approach())
+
+04:08:12_07:34:34 Sent: 00110 &
+
+04:08:12_07:34:34 Sent: 00110 # "Act", "Number"
+
+04:08:12_07:34:34 Sent: 00110 # "Def", "Number"
+
+04:08:12_07:34:34 Sent: 00110 # "Max", "Number"
+
+04:08:12_07:34:34 Sent: 00110 # "Min", "Number"
+
+04:08:12_07:34:34 Sent: 00110 %
+
+04:08:12_07:34:35 received: 00120 EnumProp(Tool.PtMeasPar.Retract())
+
+04:08:12_07:34:35 Sent: 00120 &
+
+04:08:12_07:34:35 Sent: 00120 # "Act", "Number"
+
+04:08:12_07:34:35 Sent: 00120 # "Def", "Number"
+
+04:08:12_07:34:35 Sent: 00120 # "Max", "Number"
+
+04:08:12_07:34:35 Sent: 00120 # "Min", "Number"
+
+04:08:12_07:34:35 Sent: 00120 %
+
+04:08:12_07:34:35 received: 00130 EnumProp(Tool.PtMeasPar.Search())
+
+04:08:12_07:34:35 Sent: 00130 &
+
+04:08:12_07:34:35 Sent: 00130 # "Act", "Number"
+
+04:08:12_07:34:35 Sent: 00130 # "Def", "Number"
+
+04:08:12_07:34:35 Sent: 00130 # "Max", "Number"
+
+04:08:12_07:34:35 Sent: 00130 # "Min", "Number"
+
+04:08:12_07:34:35 Sent: 00130 %
+
+04:08:12_07:34:36 received: 00140 EnumProp(FoundTool.GoToPar.Speed())
+
+04:08:12_07:34:36 Sent: 00140 &
+
+04:08:12_07:34:36 Sent: 00140 # "Act", "Number"
+
+04:08:12_07:34:36 Sent: 00140 # "Def", "Number"
+
+04:08:12_07:34:36 Sent: 00140 # "Max", "Number"
+
+04:08:12_07:34:36 Sent: 00140 # "Min", "Number"
+
+04:08:12_07:34:36 Sent: 00140 %
+
+04:08:12_07:34:36 received: 00150 EnumProp(FoundTool.GoToPar.Accel())
+
+04:08:12_07:34:36 Sent: 00150 &
+
+04:08:12_07:34:36 Sent: 00150 # "Act", "Number"
+
+04:08:12_07:34:36 Sent: 00150 # "Def", "Number"
+
+04:08:12_07:34:36 Sent: 00150 # "Max", "Number"
+
+04:08:12_07:34:36 Sent: 00150 # "Min", "Number"
+
+04:08:12_07:34:36 Sent: 00150 %
+
+04:08:12_07:34:37 received: 00160 EnumProp(FoundTool.PtMeasPar.Speed())
+
+04:08:12_07:34:37 Sent: 00160 &
+
+04:08:12_07:34:37 Sent: 00160 # "Act", "Number"
+
+04:08:12_07:34:37 Sent: 00160 # "Def", "Number"
+
+04:08:12_07:34:37 Sent: 00160 # "Max", "Number"
+
+04:08:12_07:34:37 Sent: 00160 # "Min", "Number"
+
+04:08:12_07:34:37 Sent: 00160 %
+
+04:08:12_07:34:37 received: 00170 EnumProp(FoundTool.PtMeasPar.Accel())
+
+04:08:12_07:34:37 Sent: 00170 &
+
+04:08:12_07:34:37 Sent: 00170 # "Act", "Number"
+
+04:08:12_07:34:37 Sent: 00170 # "Def", "Number"
+
+04:08:12_07:34:37 Sent: 00170 # "Max", "Number"
+
+04:08:12_07:34:37 Sent: 00170 # "Min", "Number"
+
+04:08:12_07:34:37 Sent: 00170 %
+
+04:08:12_07:34:38 received: 00180 EnumProp(FoundTool.PtMeasPar.Approach())
+
+04:08:12_07:34:38 Sent: 00180 &
+
+04:08:12_07:34:38 Sent: 00180 # "Act", "Number"
+
+04:08:12_07:34:38 Sent: 00180 # "Def", "Number"
+
+04:08:12_07:34:38 Sent: 00180 # "Max", "Number"
+
+04:08:12_07:34:38 Sent: 00180 # "Min", "Number"
+
+04:08:12_07:34:38 Sent: 00180 %
+
+04:08:12_07:34:39 received: 00190 EnumProp(FoundTool.PtMeasPar.Retract())
+
+04:08:12_07:34:39 Sent: 00190 &
+
+04:08:12_07:34:39 Sent: 00190 # "Act", "Number"
+
+04:08:12_07:34:39 Sent: 00190 # "Def", "Number"
+
+04:08:12_07:34:39 Sent: 00190 # "Max", "Number"
+
+04:08:12_07:34:39 Sent: 00190 # "Min", "Number"
+
+04:08:12_07:34:39 Sent: 00190 %
+
+04:08:12_07:34:39 received: 00200 EnumProp(FoundTool.PtMeasPar.Search())
+
+04:08:12_07:34:39 Sent: 00200 &
+
+04:08:12_07:34:39 Sent: 00200 # "Act", "Number"
+
+04:08:12_07:34:39 Sent: 00200 # "Def", "Number"
+
+04:08:12_07:34:39 Sent: 00200 # "Max", "Number"
+
+04:08:12_07:34:39 Sent: 00200 # "Min", "Number"
+
+04:08:12_07:34:39 Sent: 00200 %
+
+04:08:12_07:34:40 received: 00210 EnumProp(Tool.GoToPar.Speed.Act())
+
+04:08:12_07:34:40 Sent: 00210 &
+
+04:08:12_07:34:40 Sent: 00210 %
+
+04:08:12_07:34:40 received: 00220 EnumProp(Tool.GoToPar.Speed.Def())
+
+04:08:12_07:34:40 Sent: 00220 &
+
+04:08:12_07:34:40 Sent: 00220 %
+
+04:08:12_07:34:41 received: 00230 EnumProp(Tool.GoToPar.Speed.Max())
+
+04:08:12_07:34:41 Sent: 00230 &
+
+04:08:12_07:34:41 Sent: 00230 %
+
+04:08:12_07:34:41 received: 00240 EnumProp(Tool.GoToPar.Speed.Min())
+
+04:08:12_07:34:41 Sent: 00240 &
+
+04:08:12_07:34:42 Sent: 00240 %
+
+04:08:12_07:34:42 received: 00250 EnumProp(Tool.GoToPar.Accel.Act())
+
+04:08:12_07:34:42 Sent: 00250 &
+
+04:08:12_07:34:42 Sent: 00250 %
+
+04:08:12_07:34:43 received: 00260 EnumProp(Tool.GoToPar.Accel.Def())
+
+04:08:12_07:34:43 Sent: 00260 &
+
+04:08:12_07:34:43 Sent: 00260 %
+
+04:08:12_07:34:43 received: 00270 EnumProp(Tool.GoToPar.Accel.Max())
+
+04:08:12_07:34:43 Sent: 00270 &
+
+04:08:12_07:34:43 Sent: 00270 %
+
+04:08:12_07:34:44 received: 00280 EnumProp(Tool.GoToPar.Accel.Min())
+
+04:08:12_07:34:44 Sent: 00280 &
+
+04:08:12_07:34:44 Sent: 00280 %
+
+04:08:12_07:34:44 received: 00290 EnumProp(Tool.PtMeasPar.Speed.Act())
+
+04:08:12_07:34:44 Sent: 00290 &
+
+04:08:12_07:34:44 Sent: 00290 %
+
+04:08:12_07:34:45 received: 00300 EnumProp(Tool.PtMeasPar.Speed.Def())
+
+04:08:12_07:34:45 Sent: 00300 &
+
+04:08:12_07:34:45 Sent: 00300 %
+
+04:08:12_07:34:45 received: 00310 EnumProp(Tool.PtMeasPar.Speed.Max())
+
+04:08:12_07:34:45 Sent: 00310 &
+
+04:08:12_07:34:45 Sent: 00310 %
+
+04:08:12_07:34:46 received: 00320 EnumProp(Tool.PtMeasPar.Speed.Min())
+
+04:08:12_07:34:46 Sent: 00320 &
+
+04:08:12_07:34:46 Sent: 00320 %
+
+04:08:12_07:34:46 received: 00330 EnumProp(Tool.PtMeasPar.Accel.Act())
+
+04:08:12_07:34:46 Sent: 00330 &
+
+04:08:12_07:34:46 Sent: 00330 %
+
+04:08:12_07:34:47 received: 00340 EnumProp(Tool.PtMeasPar.Accel.Def())
+
+04:08:12_07:34:47 Sent: 00340 &
+
+04:08:12_07:34:47 Sent: 00340 %
+
+04:08:12_07:34:47 received: 00350 EnumProp(Tool.PtMeasPar.Accel.Max())
+
+04:08:12_07:34:47 Sent: 00350 &
+
+04:08:12_07:34:47 Sent: 00350 %
+
+04:08:12_07:34:54 received: 00360 EnumProp(Tool.PtMeasPar.Accel.Min())
+
+04:08:12_07:34:54 Sent: 00360 &
+
+04:08:12_07:34:54 Sent: 00360 %
+
+04:08:12_07:34:54 received: 00370 EnumProp(Tool.PtMeasPar.Approach.Act())
+
+04:08:12_07:34:54 Sent: 00370 &
+
+04:08:12_07:34:55 Sent: 00370 %
+
+04:08:12_07:34:55 received: 00380 EnumProp(Tool.PtMeasPar.Approach.Def())
+
+04:08:12_07:34:55 Sent: 00380 &
+
+04:08:12_07:34:55 Sent: 00380 %
+
+04:08:12_07:34:56 received: 00390 EnumProp(Tool.PtMeasPar.Approach.Max())
+
+04:08:12_07:34:56 Sent: 00390 &
+
+04:08:12_07:34:56 Sent: 00390 %
+
+04:08:12_07:34:57 received: 00400 EnumProp(Tool.PtMeasPar.Approach.Min())
+
+04:08:12_07:34:57 Sent: 00400 &
+
+04:08:12_07:34:57 Sent: 00400 %
+
+04:08:12_07:34:57 received: 00410 EnumProp(Tool.PtMeasPar.Retract.Act())
+
+04:08:12_07:34:57 Sent: 00410 &
+
+04:08:12_07:34:57 Sent: 00410 %
+
+04:08:12_07:34:58 received: 00420 EnumProp(Tool.PtMeasPar.Retract.Def())
+
+04:08:12_07:34:58 Sent: 00420 &
+
+04:08:12_07:34:58 Sent: 00420 %
+
+04:08:12_07:34:59 received: 00430 EnumProp(Tool.PtMeasPar.Retract.Max())
+
+04:08:12_07:34:59 Sent: 00430 &
+
+04:08:12_07:34:59 Sent: 00430 %
+
+04:08:12_07:35:00 received: 00440 EnumProp(Tool.PtMeasPar.Retract.Min())
+
+04:08:12_07:35:00 Sent: 00440 &
+
+04:08:12_07:35:00 Sent: 00440 %
+
+04:08:12_07:35:00 received: 00450 EnumProp(Tool.PtMeasPar.Search.Act())
+
+04:08:12_07:35:00 Sent: 00450 &
+
+04:08:12_07:35:00 Sent: 00450 %
+
+04:08:12_07:35:01 received: 00460 EnumProp(Tool.PtMeasPar.Search.Def())
+
+04:08:12_07:35:01 Sent: 00460 &
+
+04:08:12_07:35:01 Sent: 00460 %
+
+04:08:12_07:35:01 received: 00470 EnumProp(Tool.PtMeasPar.Search.Max())
+
+04:08:12_07:35:01 Sent: 00470 &
+
+04:08:12_07:35:01 Sent: 00470 %
+
+04:08:12_07:35:02 received: 00480 EnumProp(Tool.PtMeasPar.Search.Min())
+
+04:08:12_07:35:02 Sent: 00480 &
+
+04:08:12_07:35:02 Sent: 00480 %
+
+04:08:12_07:35:02 received: 00480 EnumProp(FoundTool.GoToPar.Speed.Act())
+
+04:08:12_07:35:02 Sent: 00480 &
+
+04:08:12_07:35:03 Sent: 00480 %
+
+04:08:12_07:35:03 received: 00500 EnumProp(FoundTool.GoToPar.Speed.Def())
+
+04:08:12_07:35:03 Sent: 00500 &
+
+04:08:12_07:35:03 Sent: 00500 %
+
+04:08:12_07:35:04 received: 00510 EnumProp(FoundTool.GoToPar.Speed.Max())
+
+04:08:12_07:35:04 Sent: 00510 &
+
+04:08:12_07:35:04 Sent: 00510 %
+
+04:08:12_07:35:04 received: 00520 EnumProp(FoundTool.GoToPar.Speed.Min())
+
+04:08:12_07:35:04 Sent: 00520 &
+
+04:08:12_07:35:04 Sent: 00520 %
+
+04:08:12_07:35:05 received: 00530 EnumProp(FoundTool.GoToPar.Accel.Act())
+
+04:08:12_07:35:05 Sent: 00530 &
+
+04:08:12_07:35:05 Sent: 00530 %
+
+04:08:12_07:35:06 received: 00540 EnumProp(FoundTool.GoToPar.Accel.Def())
+
+04:08:12_07:35:06 Sent: 00540 &
+
+04:08:12_07:35:06 Sent: 00540 %
+
+04:08:12_07:35:06 received: 00550 EnumProp(FoundTool.GoToPar.Accel.Max())
+
+04:08:12_07:35:06 Sent: 00550 &
+
+04:08:12_07:35:07 Sent: 00550 %
+
+04:08:12_07:35:08 received: 00560 EnumProp(FoundTool.GoToPar.Accel.Min())
+
+04:08:12_07:35:08 Sent: 00560 &
+
+04:08:12_07:35:08 Sent: 00560 %
+
+04:08:12_07:35:08 received: 00570 EnumProp(FoundTool.PtMeasPar.Speed.Act())
+
+04:08:12_07:35:08 Sent: 00570 &
+
+04:08:12_07:35:08 Sent: 00570 %
+
+04:08:12_07:35:09 received: 00580 EnumProp(FoundTool.PtMeasPar.Speed.Def())
+
+04:08:12_07:35:09 Sent: 00580 &
+
+04:08:12_07:35:09 Sent: 00580 %
+
+04:08:12_07:35:09 received: 00590 EnumProp(FoundTool.PtMeasPar.Speed.Max())
+
+04:08:12_07:35:09 Sent: 00590 &
+
+04:08:12_07:35:09 Sent: 00590 %
+
+04:08:12_07:35:10 received: 00600 EnumProp(FoundTool.PtMeasPar.Speed.Min())
+
+04:08:12_07:35:10 Sent: 00600 &
+
+04:08:12_07:35:10 Sent: 00600 %
+
+04:08:12_07:35:10 received: 00610 EnumProp(FoundTool.PtMeasPar.Accel.Act())
+
+04:08:12_07:35:10 Sent: 00610 &
+
+04:08:12_07:35:10 Sent: 00610 %
+
+04:08:12_07:35:11 received: 00620 EnumProp(FoundTool.PtMeasPar.Accel.Def())
+
+04:08:12_07:35:11 Sent: 00620 &
+
+04:08:12_07:35:11 Sent: 00620 %
+
+04:08:12_07:35:11 received: 00630 EnumProp(FoundTool.PtMeasPar.Accel.Max())
+
+04:08:12_07:35:11 Sent: 00630 &
+
+04:08:12_07:35:11 Sent: 00630 %
+
+04:08:12_07:35:12 received: 00640 EnumProp(FoundTool.PtMeasPar.Accel.Min())
+
+04:08:12_07:35:12 Sent: 00640 &
+
+04:08:12_07:35:12 Sent: 00640 %
+
+04:08:12_07:35:13 received: 00650 EnumProp(FoundTool.PtMeasPar.Approach.Act())
+
+04:08:12_07:35:13 Sent: 00650 &
+
+04:08:12_07:35:13 Sent: 00650 %
+
+04:08:12_07:35:13 received: 00660 EnumProp(FoundTool.PtMeasPar.Approach.Def())
+
+04:08:12_07:35:13 Sent: 00660 &
+
+04:08:12_07:35:13 Sent: 00660 %
+
+04:08:12_07:35:14 received: 00670 EnumProp(FoundTool.PtMeasPar.Approach.Max())
+
+04:08:12_07:35:14 Sent: 00670 &
+
+04:08:12_07:35:14 Sent: 00670 %
+
+04:08:12_07:35:14 received: 00680 EnumProp(FoundTool.PtMeasPar.Approach.Min())
+
+04:08:12_07:35:14 Sent: 00680 &
+
+04:08:12_07:35:14 Sent: 00680 %
+
+04:08:12_07:35:15 received: 00690 EnumProp(FoundTool.PtMeasPar.Retract.Act())
+
+04:08:12_07:35:15 Sent: 00690 &
+
+04:08:12_07:35:15 Sent: 00690 %
+
+04:08:12_07:35:16 received: 00700 EnumProp(FoundTool.PtMeasPar.Retract.Def())
+
+04:08:12_07:35:16 Sent: 00700 &
+
+04:08:12_07:35:16 Sent: 00700 %
+
+04:08:12_07:35:16 received: 00710 EnumProp(FoundTool.PtMeasPar.Retract.Max())
+
+04:08:12_07:35:16 Sent: 00710 &
+
+04:08:12_07:35:16 Sent: 00710 %
+
+04:08:12_07:35:17 received: 00720 EnumProp(FoundTool.PtMeasPar.Retract.Min())
+
+04:08:12_07:35:17 Sent: 00720 &
+
+04:08:12_07:35:17 Sent: 00720 %
+
+04:08:12_07:35:18 received: 00730 EnumProp(FoundTool.PtMeasPar.Search.Act())
+
+04:08:12_07:35:18 Sent: 00730 &
+
+04:08:12_07:35:18 Sent: 00730 %
+
+04:08:12_07:35:18 received: 00740 EnumProp(FoundTool.PtMeasPar.Search.Def())
+
+04:08:12_07:35:18 Sent: 00740 &
+
+04:08:12_07:35:18 Sent: 00740 %
+
+04:08:12_07:35:19 received: 00750 EnumProp(FoundTool.PtMeasPar.Search.Max())
+
+04:08:12_07:35:19 Sent: 00750 &
+
+04:08:12_07:35:19 Sent: 00750 %
+
+04:08:12_07:35:19 received: 00760 EnumProp(FoundTool.PtMeasPar.Search.Min())
+
+04:08:12_07:35:19 Sent: 00760 &
+
+04:08:12_07:35:19 Sent: 00760 %
+
+04:08:12_07:35:20 received: 09999 EndSession()
+
+04:08:12_07:35:20 Sent: 09999 &
+
+04:08:12_07:35:20 Sent: 09999 %
+

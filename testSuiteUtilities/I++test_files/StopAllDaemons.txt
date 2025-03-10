@@ -1,0 +1,12 @@
+StopAllDaemons.txt
+
+The StopAllDaemons.prg file:
+starts a session
+calls StopAllDaemons when there are no daemons to stop
+calls OnMoveReportE to start a daemon
+calls StopAllDaemons again, now that there is a daemon to stop.
+ends the session
+
+The StopAllDaemons.res file contains responses to the commands in the
+StopAllDaemons.prg file.
+

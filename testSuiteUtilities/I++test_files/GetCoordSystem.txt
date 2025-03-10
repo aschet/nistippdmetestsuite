@@ -1,0 +1,17 @@
+GetCoordSystem.txt
+
+The GetCoordSystem.prg file:
+starts a session,
+sets the coordinate system to MachineCsy,
+calls GetCoordinate system,
+sets the coordinate system to MoveableMachineCsy,
+calls GetCoordinate system,
+sets the coordinate system to MultipleArmCsy,
+calls GetCoordinate system,
+sets the coordinate system to PartCsy,
+calls GetCoordinate system,
+ends the session.
+
+The GetCoordSystem.res file contains the responses to the commands
+in the GetCoordSystem.prg file.
+

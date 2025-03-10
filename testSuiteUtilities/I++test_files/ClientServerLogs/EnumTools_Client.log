@@ -1,0 +1,28 @@
+04:08:12_07:37:12 *********** Starting DME file: H:\NISTI++DMEtestSuite3.0\testSuiteUtilities\I++test_files\EnumTools.prg **********
+04:08:12_07:37:12 Sent: 00001 StartSession()
+
+04:08:12_07:37:12 Received: 00001 &
+
+04:08:12_07:37:13 Received: 00001 %
+
+04:08:12_07:37:13 Sent: 00010 EnumTools()
+
+04:08:12_07:37:13 Received: 00010 &
+
+04:08:12_07:37:13 Received: 00010 # "NoTool"
+
+04:08:12_07:37:13 Received: 00010 # "RefTool"
+
+04:08:12_07:37:13 Received: 00010 # "Probe1"
+
+04:08:12_07:37:14 Received: 00010 %
+
+04:08:12_07:37:17 Final Tag: 09999
+04:08:12_07:37:17 Sent: 09999 EndSession()
+
+04:08:12_07:37:17 Received: 09999 &
+
+04:08:12_07:37:17 Received: 09999 %
+
+04:08:12_07:37:17 Session completed
+04:08:12_07:37:17 Driver file completed

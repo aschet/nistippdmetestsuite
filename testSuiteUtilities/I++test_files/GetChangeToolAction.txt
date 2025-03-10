@@ -1,0 +1,11 @@
+GetChangeToolAction.txt
+
+The GetChangeToolAction.prg file:
+starts a session,
+calls GetChangeToolAction four times,
+ends the session.
+
+The GetChangeToolAction.res file contains the responses to the
+GetChangeToolAction.prg file, using each of the four allowed argument
+types.
+

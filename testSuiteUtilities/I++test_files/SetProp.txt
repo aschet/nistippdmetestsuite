@@ -1,0 +1,10 @@
+SetProp.txt
+
+The SetProp.prg file has one instance of every legal call to SetProp with
+one argument and two legal calls with more than one argument.
+The values of the numbers are arbitrary. Each SetProp command is followed
+by a GetProp command that gets the property or properties just set.
+
+The SetProp.res file contains responses to the commands given in the
+SetProp.prg file.
+

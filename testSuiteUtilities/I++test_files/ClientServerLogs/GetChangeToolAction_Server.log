@@ -1,0 +1,44 @@
+04:08:12_07:42:30 received: 00001 StartSession()
+
+04:08:12_07:42:30 Sent: 00001 &
+
+04:08:12_07:42:30 Sent: 00001 %
+
+04:08:12_07:42:31 received: 00010 GetChangeToolAction("Probe1")
+
+04:08:12_07:42:31 Sent: 00010 &
+
+04:08:12_07:42:31 Sent: 00010 # ChangeToolAction(Switch, X(0.00000), Y(0.00000), Z(0.00000))
+
+04:08:12_07:42:31 Sent: 00010 %
+
+04:08:12_07:42:32 received: 00020 GetChangeToolAction("Probe1")
+
+04:08:12_07:42:32 Sent: 00020 &
+
+04:08:12_07:42:32 Sent: 00020 # ChangeToolAction(Switch, X(0.00000), Y(0.00000), Z(0.00000))
+
+04:08:12_07:42:32 Sent: 00020 %
+
+04:08:12_07:42:33 received: 00030 GetChangeToolAction("Probe1")
+
+04:08:12_07:42:33 Sent: 00030 &
+
+04:08:12_07:42:33 Sent: 00030 # ChangeToolAction(Switch, X(0.00000), Y(0.00000), Z(0.00000))
+
+04:08:12_07:42:33 Sent: 00030 %
+
+04:08:12_07:42:34 received: 00040 GetChangeToolAction("Probe1")
+
+04:08:12_07:42:34 Sent: 00040 &
+
+04:08:12_07:42:34 Sent: 00040 # ChangeToolAction(Switch, X(0.00000), Y(0.00000), Z(0.00000))
+
+04:08:12_07:42:34 Sent: 00040 %
+
+04:08:12_07:42:35 received: 09999 EndSession()
+
+04:08:12_07:42:35 Sent: 09999 &
+
+04:08:12_07:42:35 Sent: 09999 %
+

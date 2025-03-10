@@ -1,0 +1,33 @@
+04:08:12_10:19:33 Sent: 00001 StartSession()
+
+04:08:12_10:19:33 Received: 00001 &
+
+04:08:12_10:19:33 Received: 00001 %
+
+04:08:12_10:19:34 Sent: 00010 StopAllDaemons()
+
+04:08:12_10:19:34 Received: 00010 &
+
+04:08:12_10:19:34 Received: 00010 %
+
+04:08:12_10:19:35 Sent: E0015 OnMoveReportE(Time(15), X(), Y(), Z())
+
+04:08:12_10:19:35 Received: E0015 &
+
+04:08:12_10:19:35 Received: E0015 %
+
+04:08:12_10:19:37 Sent: 00020 StopAllDaemons()
+
+04:08:12_10:19:37 Received: 00020 &
+
+04:08:12_10:19:37 Received: 00020 %
+
+04:08:12_10:19:39 Final Tag: 09999
+04:08:12_10:19:39 Sent: 09999 EndSession()
+
+04:08:12_10:19:39 Received: 09999 &
+
+04:08:12_10:19:39 Received: 09999 %
+
+04:08:12_10:19:39 Session completed
+04:08:12_10:19:43 Driver file completed

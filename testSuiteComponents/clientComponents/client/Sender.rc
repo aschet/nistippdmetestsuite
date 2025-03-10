@@ -1,0 +1,275 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Sender.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Sender.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Sender"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Sender Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2000",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_SENDER_DIALOG DIALOGEX 0, 0, 376, 351
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Client 3.0"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Quit",IDCANCEL,192,215,156,19
+    PUSHBUTTON      "Set Driver File",IDC_SET_CMMDRIVER_FILE,36,47,142,12
+    EDITTEXT        IDC_CMMDRIVER_FILE,36,64,142,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP
+    GROUPBOX        "Driver File Type",IDC_STATIC,29,23,153,60
+    PUSHBUTTON      "Set Log File",IDC_SET_LOGFILE,35,103,142,12
+    EDITTEXT        IDC_LOGFILE,35,120,142,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    GROUPBOX        "Log File",IDC_STATIC,28,92,154,47
+    EDITTEXT        IDC_HOSTNAME,198,43,142,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    GROUPBOX        "Hostname",IDC_STATIC,191,23,154,40
+    EDITTEXT        IDC_SOCKET_PORT_NUMBER,199,81,142,12,ES_AUTOHSCROLL | 
+                    NOT WS_TABSTOP
+    GROUPBOX        "Socket Port Number",IDC_STATIC,192,67,154,33
+    PUSHBUTTON      "Execute Entire File",IDC_EXECUTE,28,212,155,23
+    GROUPBOX        "I++ Client Utility",IDC_STATIC,18,8,340,337
+    EDITTEXT        IDC_STATUS,199,118,142,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    GROUPBOX        "Status",IDC_STATIC,192,104,154,34
+    CONTROL         "I++ DME File",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,39,34,57,10
+    CONTROL         "DMIS File",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,126,
+                    34,47,10
+    PUSHBUTTON      "Single Step Through File",IDC_SINGLE_STEP,28,179,155,22
+    PUSHBUTTON      "Execute Manual Command",IDC_SET_MANUAL_COMMAND,198,170,
+                    142,12
+    EDITTEXT        IDC_MANUAL_COMMAND,198,153,142,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    GROUPBOX        "Manual Command Input",IDC_STATIC,192,142,154,47
+    PUSHBUTTON      "Connect to CMM Server",IDC_CONNECT,28,146,155,23
+    PUSHBUTTON      "Disconnect from CMM Server",IDCANCEL2,192,192,156,19
+    GROUPBOX        "Socket Messages",IDC_STATIC,29,241,319,95
+    LISTBOX         IDC_MESSAGE_LIST_BOX,38,254,302,74,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | LBS_NOSEL | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+END
+
+IDD_COORD_DIALOG DIALOG DISCARDABLE  0, 0, 235, 175
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Done",IDOK,45,138,148,17
+    LTEXT           "X",IDC_STATIC,31,69,8,8
+    EDITTEXT        IDC_X,45,66,40,14,ES_AUTOHSCROLL
+    LTEXT           "Y",IDC_STATIC,31,92,8,8
+    EDITTEXT        IDC_Y,46,89,40,14,ES_AUTOHSCROLL
+    LTEXT           "Z",IDC_STATIC,32,116,8,8
+    EDITTEXT        IDC_Z,46,113,40,14,ES_AUTOHSCROLL
+    LTEXT           "Roll",IDC_STATIC,127,69,24,9
+    EDITTEXT        IDC_ROLL,153,66,40,14,ES_AUTOHSCROLL
+    LTEXT           "Pitch",IDC_STATIC,127,92,24,10
+    EDITTEXT        IDC_PITCH,153,88,40,14,ES_AUTOHSCROLL
+    LTEXT           "Yaw",IDC_STATIC,127,115,14,8
+    EDITTEXT        IDC_YAW,153,111,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "Part Transform Information",IDC_STATIC,16,13,207,149
+    CONTROL         "From File",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,45,31,
+                    44,10
+    EDITTEXT        IDC_TYPE,135,43,52,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    CONTROL         "From Measurement",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,118,31,76,10
+    CONTROL         "From Values Below",IDC_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON,45,47,76,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Sender MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Sender\0"
+            VALUE "LegalCopyright", "Copyright (C) 2000\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Sender.EXE\0"
+            VALUE "ProductName", "Sender Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SENDER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 369
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 345
+    END
+
+    IDD_COORD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 229
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Sender..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Sender.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

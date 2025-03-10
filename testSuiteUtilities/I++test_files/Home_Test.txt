@@ -1,0 +1,17 @@
+Home_Test.txt
+
+The Home_Test.prg file:
+starts a session
+calls Home
+changes the tool
+sets properties for the tool
+executes a GoTo
+verifies the current CMM position
+executes a Home
+calls IsHomed
+verifies the current CMM position
+stops the session
+
+The Home_Test.res file contains responses to the commands in the
+Home_Test.prg file.
+

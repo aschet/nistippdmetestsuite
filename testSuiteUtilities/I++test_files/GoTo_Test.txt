@@ -1,0 +1,16 @@
+GoTo_Test.txt
+
+The GoTo.prg file:
+starts a session
+homes the machine
+calls ChangeTool("Probe1")
+sets the GoToPar acceleration
+sets the GoToPar speed
+starts a daemon
+executes a GoTo
+stops the daemon
+ends the session
+
+The GoTo_Test.res file contains responses to the commands in the
+GoTo_Test.prg file. This includes data reported by the daemon.
+

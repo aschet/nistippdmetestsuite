@@ -1,0 +1,10 @@
+ScanUnknownHint.txt
+
+The ScanOnUnknownHint.prg file:
+starts a session
+calls ScanOnUnknownHint three times
+ends the session
+
+The ScanOnUnknownHint.res file contains responses to the commands in the
+The ScanOnUnknownHint.prg file.
+

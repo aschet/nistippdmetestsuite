@@ -1,0 +1,11 @@
+ClearAllErrors.txt
+
+The ClearAllErrors.prg file:
+starts a session,
+calls AbortE,
+calls ClearAllErrors,
+ends the session.
+
+The ClearAllErrors.res file contains responses to the commands given
+in the ClearAllErrors.prg file
+

@@ -1,0 +1,9 @@
+LockAxis.txt
+
+The LockAxis.prg file calls LockAxis with various combinations of
+arguments, all of which are legal. In particular, the arguments do
+not need to be in any fixed order.
+
+The LockAxis.res file contains responses to the commands in the
+LockAxis.prg file.
+

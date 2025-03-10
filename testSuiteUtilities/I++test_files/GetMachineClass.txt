@@ -1,0 +1,10 @@
+GetMachineClass.txt
+
+The GetMachineClass.prg file:
+starts a session,
+calls GetMachineClass,
+ends the session.
+
+The GetMachineClass.res file contains the responses to the commands
+in the GetMachineClass.prg file.
+

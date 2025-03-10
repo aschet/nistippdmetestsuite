@@ -1,0 +1,14 @@
+IsUserEnabled.txt
+
+The IsUserEnabled.prg file:
+starts a session
+calls IsUserEnabled
+calls EnableUser
+calls IsUserEnabled again
+calls DisableUser
+calls IsUserEnabled again
+stops the session
+
+The IsUserEnabled.res file contains responses to the commands in the
+IsUserEnabled.prg file.
+

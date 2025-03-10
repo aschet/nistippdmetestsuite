@@ -1,0 +1,309 @@
+04:08:12_08:32:30 Sent: 00001 StartSession()
+
+04:08:12_08:32:30 Received: 00001 &
+
+04:08:12_08:32:30 Received: 00001 %
+
+04:08:12_08:32:31 Sent: 00002 Home()
+
+04:08:12_08:32:31 Received: 00002 &
+
+04:08:12_08:32:31 Received: 00002 %
+
+04:08:12_08:32:32 Sent: 00003 ChangeTool("NoTool")
+
+04:08:12_08:32:32 Received: 00003 &
+
+04:08:12_08:32:32 Received: 00003 %
+
+04:08:12_08:32:33 Sent: 00010 SetProp(Tool.GoToPar.Speed(0))
+
+04:08:12_08:32:33 Received: 00010 &
+
+04:08:12_08:32:33 Received: 00010 ! Error(1, 0504, "00010 SetProp(Tool.GoToPar.Speed(0.00000))", "Argument out of range")
+
+04:08:12_08:32:33 Received: 00010 %
+
+04:08:12_08:32:40 Sent: 00020 SetProp(Tool.GoToPar.Speed(123))
+
+04:08:12_08:32:40 Received: 00020 &
+
+04:08:12_08:32:40 Received: 00020 %
+
+04:08:12_08:32:41 Sent: 00030 SetProp(Tool.GoToPar.Speed(+90))
+
+04:08:12_08:32:41 Received: 00030 &
+
+04:08:12_08:32:41 Received: 00030 %
+
+04:08:12_08:32:42 Sent: 00040 SetProp(Tool.GoToPar.Speed(-90))
+
+04:08:12_08:32:42 Received: 00040 &
+
+04:08:12_08:32:42 Received: 00040 ! Error(1, 0504, "00040 SetProp(Tool.GoToPar.Speed(-90.00000))", "Argument out of range")
+
+04:08:12_08:32:42 Received: 00040 %
+
+04:08:12_08:32:43 Sent: 00050 SetProp(Tool.GoToPar.Speed(12.2))
+
+04:08:12_08:32:43 Received: 00050 &
+
+04:08:12_08:32:43 Received: 00050 %
+
+04:08:12_08:32:44 Sent: 00060 SetProp(Tool.GoToPar.Speed(+1.2))
+
+04:08:12_08:32:44 Received: 00060 &
+
+04:08:12_08:32:44 Received: 00060 %
+
+04:08:12_08:32:44 Sent: 00070 SetProp(Tool.GoToPar.Speed(-1.2))
+
+04:08:12_08:32:44 Received: 00070 &
+
+04:08:12_08:32:44 Received: 00070 ! Error(1, 0504, "00070 SetProp(Tool.GoToPar.Speed(-1.20000))", "Argument out of range")
+
+04:08:12_08:32:44 Received: 00070 %
+
+04:08:12_08:32:45 Sent: 00080 SetProp(Tool.GoToPar.Speed(1234567890123456))
+
+04:08:12_08:32:45 Received: 00080 &
+
+04:08:12_08:32:45 Received: 00080 ! Error(1, 0504, "00080 SetProp(Tool.GoToPar.Speed(1234567890123456.00000))", "Argument out of range")
+
+04:08:12_08:32:45 Received: 00080 %
+
+04:08:12_08:32:46 Sent: 00090 SetProp(Tool.GoToPar.Speed(1.234567890123456))
+
+04:08:12_08:32:46 Received: 00090 &
+
+04:08:12_08:32:46 Received: 00090 %
+
+04:08:12_08:32:46 Sent: 00100 SetProp(Tool.GoToPar.Speed(+1.234567890123456))
+
+04:08:12_08:32:46 Received: 00100 &
+
+04:08:12_08:32:46 Received: 00100 %
+
+04:08:12_08:32:47 Sent: 00110 SetProp(Tool.GoToPar.Speed(-0000))
+
+04:08:12_08:32:47 Received: 00110 &
+
+04:08:12_08:32:47 Received: 00110 ! Error(1, 0504, "00110 SetProp(Tool.GoToPar.Speed(0.00000))", "Argument out of range")
+
+04:08:12_08:32:47 Received: 00110 %
+
+04:08:12_08:32:48 Sent: 00120 SetProp(Tool.GoToPar.Speed(0090))
+
+04:08:12_08:32:48 Received: 00120 &
+
+04:08:12_08:32:49 Received: 00120 %
+
+04:08:12_08:32:49 Sent: 00130 SetProp(Tool.GoToPar.Speed(+0090))
+
+04:08:12_08:32:49 Received: 00130 &
+
+04:08:12_08:32:49 Received: 00130 %
+
+04:08:12_08:32:50 Sent: 00140 SetProp(Tool.GoToPar.Speed(-0090))
+
+04:08:12_08:32:50 Received: 00140 &
+
+04:08:12_08:32:50 Received: 00140 ! Error(1, 0504, "00140 SetProp(Tool.GoToPar.Speed(-90.00000))", "Argument out of range")
+
+04:08:12_08:32:50 Received: 00140 %
+
+04:08:12_08:32:50 Sent: 00150 SetProp(Tool.GoToPar.Speed(+0000.5))
+
+04:08:12_08:32:50 Received: 00150 &
+
+04:08:12_08:32:51 Received: 00150 ! Error(1, 0504, "00150 SetProp(Tool.GoToPar.Speed(0.50000))", "Argument out of range")
+
+04:08:12_08:32:51 Received: 00150 %
+
+04:08:12_08:32:51 Sent: 00160 SetProp(Tool.GoToPar.Speed(+0000.5E7))
+
+04:08:12_08:32:51 Received: 00160 &
+
+04:08:12_08:32:51 Received: 00160 ! Error(1, 0504, "00160 SetProp(Tool.GoToPar.Speed(5000000.00000))", "Argument out of range")
+
+04:08:12_08:32:51 Received: 00160 %
+
+04:08:12_08:32:52 Sent: 00170 SetProp(Tool.GoToPar.Speed(3.9E2))
+
+04:08:12_08:32:52 Received: 00170 &
+
+04:08:12_08:32:52 Received: 00170 %
+
+04:08:12_08:32:52 Sent: 00180 SetProp(Tool.GoToPar.Speed(1.3E02))
+
+04:08:12_08:32:52 Received: 00180 &
+
+04:08:12_08:32:52 Received: 00180 %
+
+04:08:12_08:32:53 Sent: 00190 SetProp(Tool.GoToPar.Speed(3.8E002))
+
+04:08:12_08:32:53 Received: 00190 &
+
+04:08:12_08:32:53 Received: 00190 %
+
+04:08:12_08:32:53 Sent: 00200 SetProp(Tool.GoToPar.Speed(+6.333E1))
+
+04:08:12_08:32:54 Received: 00200 &
+
+04:08:12_08:32:54 Received: 00200 %
+
+04:08:12_08:32:54 Sent: 00210 SetProp(Tool.GoToPar.Speed(-9.333E01))
+
+04:08:12_08:32:54 Received: 00210 &
+
+04:08:12_08:32:54 Received: 00210 ! Error(1, 0504, "00210 SetProp(Tool.GoToPar.Speed(-93.33000))", "Argument out of range")
+
+04:08:12_08:32:54 Received: 00210 %
+
+04:08:12_08:32:55 Sent: 00220 SetProp(Tool.GoToPar.Speed(+1.234567890123456E003))
+
+04:08:12_08:32:55 Received: 00220 &
+
+04:08:12_08:32:55 Received: 00220 ! Error(1, 0504, "00220 SetProp(Tool.GoToPar.Speed(1234.56789))", "Argument out of range")
+
+04:08:12_08:32:55 Received: 00220 %
+
+04:08:12_08:32:56 Sent: 00230 SetProp(Tool.GoToPar.Speed(+1.234567890123456E-123))
+
+04:08:12_08:32:56 Received: 00230 &
+
+04:08:12_08:32:56 Received: 00230 ! Error(1, 0504, "00230 SetProp(Tool.GoToPar.Speed(0.00000))", "Argument out of range")
+
+04:08:12_08:32:56 Received: 00230 %
+
+04:08:12_08:32:56 Sent: 00240 SetProp(Tool.GoToPar.Speed(+6.333E+01))
+
+04:08:12_08:32:56 Received: 00240 &
+
+04:08:12_08:32:56 Received: 00240 %
+
+04:08:12_08:32:57 Sent: 00250 SetProp(Tool.GoToPar.Speed(+6.382E-01))
+
+04:08:12_08:32:57 Received: 00250 &
+
+04:08:12_08:32:57 Received: 00250 ! Error(1, 0504, "00250 SetProp(Tool.GoToPar.Speed(0.63820))", "Argument out of range")
+
+04:08:12_08:32:57 Received: 00250 %
+
+04:08:12_08:32:57 Sent: 00260 SetProp(Tool.GoToPar.Speed(-6.333E+01))
+
+04:08:12_08:32:57 Received: 00260 &
+
+04:08:12_08:32:57 Received: 00260 ! Error(1, 0504, "00260 SetProp(Tool.GoToPar.Speed(-63.33000))", "Argument out of range")
+
+04:08:12_08:32:58 Received: 00260 %
+
+04:08:12_08:32:58 Sent: 00270 SetProp(Tool.GoToPar.Speed(-6.382E-012))
+
+04:08:12_08:32:58 Received: 00270 &
+
+04:08:12_08:32:58 Received: 00270 ! Error(1, 0504, "00270 SetProp(Tool.GoToPar.Speed(-0.00000))", "Argument out of range")
+
+04:08:12_08:32:58 Received: 00270 %
+
+04:08:12_08:33:05 Sent: 00280 SetProp(Tool.GoToPar.Speed(3.9e2))
+
+04:08:12_08:33:05 Received: 00280 &
+
+04:08:12_08:33:05 Received: 00280 %
+
+04:08:12_08:33:15 Sent: 00290 SetProp(Tool.GoToPar.Speed(1.3e02))
+
+04:08:12_08:33:15 Received: 00290 &
+
+04:08:12_08:33:15 Received: 00290 %
+
+04:08:12_08:33:16 Sent: 00300 SetProp(Tool.GoToPar.Speed(3.8e002))
+
+04:08:12_08:33:16 Received: 00300 &
+
+04:08:12_08:33:16 Received: 00300 %
+
+04:08:12_08:33:17 Sent: 00310 SetProp(Tool.GoToPar.Speed(+6.333e1))
+
+04:08:12_08:33:17 Received: 00310 &
+
+04:08:12_08:33:17 Received: 00310 %
+
+04:08:12_08:33:17 Sent: 00320 SetProp(Tool.GoToPar.Speed(-9.333e01))
+
+04:08:12_08:33:17 Received: 00320 &
+
+04:08:12_08:33:17 Received: 00320 ! Error(1, 0504, "00320 SetProp(Tool.GoToPar.Speed(-93.33000))", "Argument out of range")
+
+04:08:12_08:33:17 Received: 00320 %
+
+04:08:12_08:33:18 Sent: 00330 SetProp(Tool.GoToPar.Speed(+1.234567890123456e003))
+
+04:08:12_08:33:18 Received: 00330 &
+
+04:08:12_08:33:18 Received: 00330 ! Error(1, 0504, "00330 SetProp(Tool.GoToPar.Speed(1234.56789))", "Argument out of range")
+
+04:08:12_08:33:18 Received: 00330 %
+
+04:08:12_08:33:19 Sent: 00340 SetProp(Tool.GoToPar.Speed(+1.234567890123456e-123))
+
+04:08:12_08:33:19 Received: 00340 &
+
+04:08:12_08:33:19 Received: 00340 ! Error(1, 0504, "00340 SetProp(Tool.GoToPar.Speed(0.00000))", "Argument out of range")
+
+04:08:12_08:33:19 Received: 00340 %
+
+04:08:12_08:33:19 Sent: 00350 SetProp(Tool.GoToPar.Speed(+6.333e+01))
+
+04:08:12_08:33:19 Received: 00350 &
+
+04:08:12_08:33:19 Received: 00350 %
+
+04:08:12_08:33:28 Sent: 00360 SetProp(Tool.GoToPar.Speed(+6.382e-01))
+
+04:08:12_08:33:28 Received: 00360 &
+
+04:08:12_08:33:28 Received: 00360 ! Error(1, 0504, "00360 SetProp(Tool.GoToPar.Speed(0.63820))", "Argument out of range")
+
+04:08:12_08:33:28 Received: 00360 %
+
+04:08:12_08:33:30 Sent: 00370 SetProp(Tool.GoToPar.Speed(-6.333e+01))
+
+04:08:12_08:33:30 Received: 00370 &
+
+04:08:12_08:33:30 Received: 00370 ! Error(1, 0504, "00370 SetProp(Tool.GoToPar.Speed(-63.33000))", "Argument out of range")
+
+04:08:12_08:33:30 Received: 00370 %
+
+04:08:12_08:33:31 Sent: 00380 SetProp(Tool.GoToPar.Speed(-6.382e-012))
+
+04:08:12_08:33:31 Received: 00380 &
+
+04:08:12_08:33:31 Received: 00380 ! Error(1, 0504, "00380 SetProp(Tool.GoToPar.Speed(-0.00000))", "Argument out of range")
+
+04:08:12_08:33:31 Received: 00380 %
+
+04:08:12_08:33:32 Sent: 00390 SetProp(Tool.GoToPar.Speed(.123))
+
+04:08:12_08:33:32 Received: 00390 &
+
+04:08:12_08:33:32 Received: 00390 ! Error(1, 0504, "00390 SetProp(Tool.GoToPar.Speed(0.12300))", "Argument out of range")
+
+04:08:12_08:33:32 Received: 00390 %
+
+04:08:12_08:33:33 Sent: 00400 SetProp(Tool.GoToPar.Speed(123.))
+
+04:08:12_08:33:33 Received: 00400 &
+
+04:08:12_08:33:33 Received: 00400 %
+
+04:08:12_08:33:34 Final Tag: 09999
+04:08:12_08:33:34 Sent: 09999 EndSession()
+
+04:08:12_08:33:34 Received: 09999 &
+
+04:08:12_08:33:34 Received: 09999 %
+
+04:08:12_08:33:34 Session completed
+04:08:12_08:33:35 Driver file completed

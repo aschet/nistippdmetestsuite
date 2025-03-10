@@ -1,0 +1,24 @@
+04:08:12_08:02:32 *********** Starting DME file: H:\NISTI++DMEtestSuite3.0\testSuiteUtilities\I++test_files\GetMachineClass.prg **********
+04:08:12_08:02:32 Sent: 00001 StartSession()
+
+04:08:12_08:02:32 Received: 00001 &
+
+04:08:12_08:02:32 Received: 00001 %
+
+04:08:12_08:02:33 Sent: 00010 GetMachineClass()
+
+04:08:12_08:02:33 Received: 00010 &
+
+04:08:12_08:02:33 Received: 00010 # GetMachineClass("CartCMMWithRotaryTable")
+
+04:08:12_08:02:33 Received: 00010 %
+
+04:08:12_08:02:34 Final Tag: 09999
+04:08:12_08:02:34 Sent: 09999 EndSession()
+
+04:08:12_08:02:34 Received: 09999 &
+
+04:08:12_08:02:34 Received: 09999 %
+
+04:08:12_08:02:34 Session completed
+04:08:12_08:02:35 Driver file completed

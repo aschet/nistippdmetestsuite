@@ -1,0 +1,19 @@
+AbortE_TestWhileMoving.txt
+
+The AbortE_TestWhileMoving.prg file:
+starts a session,
+performs a home,
+changes the tool,
+sets a couple of tool properties,
+starts a daemon,
+initiates a GoTo command,
+aborts,
+clears abort errors,
+starts another daemon,
+performs another home,
+stops the current daemon,
+ends the session.
+
+The AbortE_TestWhileMoving.res file contains responses to the commands in the
+AbortE_TestWhileMoving.prg file.
+

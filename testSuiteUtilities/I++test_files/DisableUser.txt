@@ -1,0 +1,11 @@
+DisableUser.txt
+
+The DisableUser.prg file:
+starts a session,
+calls EnableUser (so that DisableUser will have an effect),
+calls DisableUser,
+ends the session.
+
+The DisableUser.res file contains responses to the commands given in
+the DisableUser.prg file.
+

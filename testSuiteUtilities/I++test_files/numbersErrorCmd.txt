@@ -1,0 +1,41 @@
+numbersErrorCmd.txt
+
+The numbersErrorCmd.prg file contains commands that have number errors.
+The numbersErrorCmd.res file contains what the NIST server responds
+when it is connected to the NIST client and that client runs the
+numbersErrorCmd.prg file.
+
+The rest of this file shows what the stand-alone command parser
+prints when the numbersErrorCmd.prg file is run through it (with
+the correct, non-number commands omitted).  The error messages explain
+what is wrong with each number.
+
+
+00010 GoTo(X(12345678901234567))
+BAD NUMBER MORE THAN 16 DIGITS
+0509
+
+00020 GoTo(X(-.))
+BAD NUMBER NO DIGITS
+0509
+
+00030 GoTo(X(+))
+BAD NUMBER NO DIGITS
+0509
+
+00040 GoTo(X(+1.2 E2))
+ILLEGAL SPACE
+0502
+
+00050 GoTo(X(+1.2E))
+BAD E NUMBER EXPONENT MUST HAVE ONE TWO OR THREE DIGITS
+0509
+
+00060 GoTo(X(+1.2E0010))
+BAD E NUMBER EXPONENT MUST HAVE ONE TWO OR THREE DIGITS
+0509
+
+00070 GoTo(X(0.34.33))
+BAD NUMBER TWO DECIMAL POINTS
+0509
+

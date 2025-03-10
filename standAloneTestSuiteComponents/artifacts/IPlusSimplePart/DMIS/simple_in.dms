@@ -1,0 +1,33 @@
+DMISMN/ 'IPP SIMPLE DMIS program'
+FILNAM/ 'IPP SIMPLE DMIS output'
+$$ This is a DMIS 3.0 program.
+$$ An edge of the part should be on the positive machine X-axis.
+$$ Another edge of the part should be on the positive machine Y-axis.
+$$ The normal pointing away from material at the bottom of the hole
+$$ should be parallel to the positive Z-axis.
+UNITS/ MM, ANGDEC
+D(START) = DATSET/MCS
+$$ The next three lines may need to be changed to work with a specific probe.
+GOTO/50.0, 50.0, 175.0
+S(PROBE6) = SNSDEF/PROBE, FIXED, CART, 0.0, 0.0, 30.0, 0.0, 0.0, -1.0, 4.0
+SNSLCT/S(PROBE6)
+$$ Move to a point 25 mm above the part on the axis of the hole.
+GOTO/50.0, 50.0, 75.0
+SNSET/APPRCH, 10.0
+SNSET/SEARCH, 10.0
+SNSET/RETRCT, 10.0
+FEDRAT/POSVEL, MPM, 1.8
+$$ Define a circle: diameter 50, center at (50,50,40), axis parallel to z-axis.
+$$ The circle is on the inside of the hole, 10 mm below the top of the part.
+F(A_CIRCLE) = FEAT/CIRCLE,INNER,CART, 50.0, 50.0, 40.0, 0.0, 0.0, 1.0, 50.0
+MEAS/CIRCLE,F(A_CIRCLE),4
+GOTO/ 50.0, 50.0, 40.0
+PTMEAS/CART, 75.0, 50.0, 40.0, -1.0,  0.0, 0.0
+PTMEAS/CART, 25.0, 50.0, 40.0,  1.0,  0.0, 0.0
+PTMEAS/CART, 50.0, 75.0, 40.0,  0.0, -1.0, 0.0
+PTMEAS/CART, 50.0, 25.0, 40.0,  0.0,  1.0, 0.0
+GOTO/ 50.0, 50.0, 40.0
+ENDMES
+GOTO/ 50.0, 50.0, 100.0
+OUTPUT/FA(A_CIRCLE)
+ENDFIL

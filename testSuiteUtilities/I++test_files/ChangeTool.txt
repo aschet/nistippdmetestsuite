@@ -1,0 +1,11 @@
+ChangeTool.txt
+
+The ChangeTool.prg file:
+starts a session,
+changes a tool,
+ends the session.
+
+
+The ChangeTool.res file contains the responses to the commands
+in the ChangeTool.prg file.
+

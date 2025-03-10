@@ -1,0 +1,15 @@
+04:08:12_07:29:35 Sent: 00001 StartSession()
+
+04:08:12_07:29:35 Received: 00001 &
+
+04:08:12_07:29:35 Received: 00001 %
+
+04:08:12_07:29:35 Final Tag: 09999
+04:08:12_07:29:35 Sent: 09999 EndSession()
+
+04:08:12_07:29:35 Received: 09999 &
+
+04:08:12_07:29:36 Received: 09999 %
+
+04:08:12_07:29:36 Session completed
+04:08:12_07:29:36 Driver file completed

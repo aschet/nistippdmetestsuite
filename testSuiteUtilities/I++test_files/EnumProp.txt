@@ -1,0 +1,13 @@
+EnumProp.txt
+
+The EnumProp.prg file contains one instance of each of the 76 calls
+calls to EnumProp allowed by the spec.
+
+Alignment, CollisionVolume, Name, and Id are not used, since
+the spec allows them only with GetProp.
+
+The EnumProp.res file contains the responses to the first few
+commands in the EnumProp.prg file, plus the response to the
+EndSession command at the end. The responses to EnumProp(Tool.GoToPar())
+follow the model given in section 7.7, page 73 of the spec.
+

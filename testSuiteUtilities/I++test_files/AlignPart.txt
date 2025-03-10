@@ -1,0 +1,11 @@
+AlignPart.txt
+
+The AlignPart.prg file:
+starts a session,
+homes the machine (since this must be done before other motion),
+has two AlignPart commands, one in each of the two allowed forms,
+ends the session.
+
+The AlignPart.res file contains the responses to the commands
+in the AlignPart.prg file.
+

@@ -1,0 +1,23 @@
+04:08:12_07:56:47 Sent: 00001 StartSession()
+
+04:08:12_07:56:47 Received: 00001 &
+
+04:08:12_07:56:47 Received: 00001 %
+
+04:08:12_07:56:48 Sent: 00010 GetDMEVersion()
+
+04:08:12_07:56:48 Received: 00010 &
+
+04:08:12_07:56:48 Received: 00010 # DMEVersion("1.4")
+
+04:08:12_07:56:48 Received: 00010 %
+
+04:08:12_07:56:49 Final Tag: 09999
+04:08:12_07:56:49 Sent: 09999 EndSession()
+
+04:08:12_07:56:49 Received: 09999 &
+
+04:08:12_07:56:49 Received: 09999 %
+
+04:08:12_07:56:49 Session completed
+04:08:12_07:56:50 Driver file completed

@@ -1,0 +1,12 @@
+ReQualify.txt
+
+The ReQualify.prg file:
+starts a session
+calls Home
+changes the tool
+calls Requalify
+ends the session.
+
+The ReQualify.res file contains responses to the commands in the
+ReQualify.prg file.
+

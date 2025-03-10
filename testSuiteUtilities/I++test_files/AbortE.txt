@@ -1,0 +1,12 @@
+AbortE.txt
+
+The AbortE.prg file:
+starts a session,
+starts a daemon,
+aborts,
+clears errors,
+ends the session.
+
+The AbortE.txt file contains responses to the commands in the
+AbortE.prg file.
+

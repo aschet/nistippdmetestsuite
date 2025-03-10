@@ -1,0 +1,38 @@
+The test_files directory contains files for testing implementations of
+the I++ DME Interface specficiation, version 1.4.
+
+Files with a .prg suffix are command files. Most of these are intended to
+be used to test command parsers (normally found inside servers).  Some of
+them are intended to be executed by a server to test the entire server. The
+syntax of command strings and command files is described in documents named
+command_string_spec and prg_file_spec.  There is a .prg test file for every
+command in the spec. If the command is named XXX, the .prg test file is
+named XXX.prg and focuses on testing the XXX command.
+
+Files with a .res suffix are response files. Most of these are intended to
+be used to test response parsers (normally found inside clients).  The
+syntax of response strings and response files is described in documents
+named response_string_spec and res_file_spec.  There is a .res test file
+for every type of response that can be made by a server.
+
+Files with a .txt suffix are text files that describe the corresponding
+.prg and/or .res files.
+
+In most cases there are three related files with the same base name but
+different suffixes (.prg, .res, and .txt). In these case the .res file is
+what might be returned by a server when the client runs the .prg file, and
+the .txt file gives a general description of the other two files.
+
+Some of the test programs are intended to trigger errors in a command
+parser or response parser. In these cases there may be only two related
+files.
+
+The following .prg files are intended to be completely executable.  To use
+these files, it is necessary in most cases to have a specific physical
+artifact in place on the CMM being controlled. Read the .txt file to see
+what is needed. These files are written in part coordinates based on an
+assumed machine coordinate system. The files may be edited automatically
+(using the PCSmover utility) to use some other machine coordinate system.
+See the documentation for PCSmover.
+
+NO FILES YET.

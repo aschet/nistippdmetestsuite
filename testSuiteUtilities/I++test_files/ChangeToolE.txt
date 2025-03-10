@@ -1,0 +1,6 @@
+ChangeToolE.txt
+
+The ChangeToolE.res file contains two server initiated ChangeTool
+responses. There is no ChangeToolE.prg file since these are not
+responses to commands.
+

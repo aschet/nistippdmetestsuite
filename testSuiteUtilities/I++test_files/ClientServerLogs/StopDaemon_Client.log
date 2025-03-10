@@ -1,0 +1,41 @@
+04:08:12_10:21:03 Sent: 00001 StartSession()
+
+04:08:12_10:21:03 Received: 00001 &
+
+04:08:12_10:21:04 Received: 00001 %
+
+04:08:12_10:21:04 Sent: E0005 OnMoveReportE(Time(15), Dis(3), X(), Y(), Z())
+
+04:08:12_10:21:04 Received: E0005 &
+
+04:08:12_10:21:05 Received: E0005 %
+
+04:08:12_10:21:07 Sent: 00010 StopDaemon(E0006)
+
+04:08:12_10:21:07 Received: 00010 &
+
+04:08:12_10:21:07 Received: 00010 ! Error(2, 0513, "00010 StopDaemon(E0006)", "Daemon does not exist")
+
+04:08:12_10:21:07 Received: 00010 %
+
+04:08:12_10:21:13 Sent: 00015 ClearAllErrors()
+
+04:08:12_10:21:13 Received: 00015 &
+
+04:08:12_10:21:14 Received: 00015 %
+
+04:08:12_10:21:15 Sent: 00020 StopDaemon(E0005)
+
+04:08:12_10:21:15 Received: 00020 &
+
+04:08:12_10:21:15 Received: 00020 %
+
+04:08:12_10:21:19 Final Tag: 09999
+04:08:12_10:21:19 Sent: 09999 EndSession()
+
+04:08:12_10:21:19 Received: 09999 &
+
+04:08:12_10:21:19 Received: 09999 %
+
+04:08:12_10:21:19 Session completed
+04:08:12_10:21:51 Driver file completed

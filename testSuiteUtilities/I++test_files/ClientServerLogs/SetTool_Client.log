@@ -1,0 +1,43 @@
+04:08:12_10:17:56 Sent: 00001 StartSession()
+
+04:08:12_10:17:56 Received: 00001 &
+
+04:08:12_10:17:56 Received: 00001 %
+
+04:08:12_10:17:57 Sent: 00010 SetTool("BaseTool")
+
+04:08:12_10:17:57 Received: 00010 &
+
+04:08:12_10:17:57 Received: 00010 %
+
+04:08:12_10:17:58 Sent: 00020 GetProp(Tool.Name())
+
+04:08:12_10:17:58 Received: 00020 &
+
+04:08:12_10:17:58 Received: 00020 # Tool.Name("BaseTool")
+
+04:08:12_10:17:58 Received: 00020 %
+
+04:08:12_10:17:59 Sent: 00030 SetTool("RefTool")
+
+04:08:12_10:17:59 Received: 00030 &
+
+04:08:12_10:18:00 Received: 00030 %
+
+04:08:12_10:18:00 Sent: 00040 GetProp(Tool.Name())
+
+04:08:12_10:18:00 Received: 00040 &
+
+04:08:12_10:18:01 Received: 00040 # Tool.Name("RefTool")
+
+04:08:12_10:18:01 Received: 00040 %
+
+04:08:12_10:18:01 Final Tag: 09999
+04:08:12_10:18:01 Sent: 09999 EndSession()
+
+04:08:12_10:18:02 Received: 09999 &
+
+04:08:12_10:18:02 Received: 09999 %
+
+04:08:12_10:18:02 Session completed
+04:08:12_10:18:05 Driver file completed

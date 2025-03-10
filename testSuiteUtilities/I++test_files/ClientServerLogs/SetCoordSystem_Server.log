@@ -1,0 +1,68 @@
+04:08:12_10:13:11 received: 00001 StartSession()
+
+04:08:12_10:13:11 Sent: 00001 &
+
+04:08:12_10:13:11 Sent: 00001 %
+
+04:08:12_10:13:12 received: 00005 SetCoordSystem(MachineCsy)
+
+04:08:12_10:13:12 Sent: 00005 &
+
+04:08:12_10:13:12 Sent: 00005 %
+
+04:08:12_10:13:14 received: 00010 GetCoordSystem()
+
+04:08:12_10:13:14 Sent: 00010 &
+
+04:08:12_10:13:14 Sent: 00010 # CoordSystem(MachineCsy)
+
+04:08:12_10:13:14 Sent: 00010 %
+
+04:08:12_10:13:15 received: 00015 SetCoordSystem(MoveableMachineCsy)
+
+04:08:12_10:13:15 Sent: 00015 &
+
+04:08:12_10:13:15 Sent: 00015 %
+
+04:08:12_10:13:16 received: 00020 GetCoordSystem()
+
+04:08:12_10:13:16 Sent: 00020 &
+
+04:08:12_10:13:16 Sent: 00020 # CoordSystem(MoveableMachineCsy)
+
+04:08:12_10:13:16 Sent: 00020 %
+
+04:08:12_10:13:18 received: 00025 SetCoordSystem(MultipleArmCsy)
+
+04:08:12_10:13:18 Sent: 00025 &
+
+04:08:12_10:13:18 Sent: 00025 %
+
+04:08:12_10:13:26 received: 00030 GetCoordSystem()
+
+04:08:12_10:13:26 Sent: 00030 &
+
+04:08:12_10:13:26 Sent: 00030 # CoordSystem(MultipleArmCsy)
+
+04:08:12_10:13:26 Sent: 00030 %
+
+04:08:12_10:13:27 received: 00035 SetCoordSystem(PartCsy)
+
+04:08:12_10:13:27 Sent: 00035 &
+
+04:08:12_10:13:27 Sent: 00035 %
+
+04:08:12_10:13:28 received: 00040 GetCoordSystem()
+
+04:08:12_10:13:28 Sent: 00040 &
+
+04:08:12_10:13:28 Sent: 00040 # CoordSystem(PartCsy)
+
+04:08:12_10:13:28 Sent: 00040 %
+
+04:08:12_10:13:29 received: 09999 EndSession()
+
+04:08:12_10:13:29 Sent: 09999 &
+
+04:08:12_10:13:29 Sent: 09999 %
+

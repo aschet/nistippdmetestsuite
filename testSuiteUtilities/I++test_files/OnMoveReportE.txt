@@ -1,0 +1,20 @@
+OnMoveReportE.txt
+
+The OnMoveReportE.prg file includes:
+2 of the 362880 legal forms of OnMoveReportE with nine arguments.
+2 of the 362880 legal forms of OnMoveReportE with eight arguments.
+2 of the 181440 legal forms of OnMoveReportE with seven arguments.
+2 of the  60480 legal forms of OnMoveReportE with six arguments.
+2 of the  15120 legal forms of OnMoveReportE with five arguments.
+2 of the   3024 legal forms of OnMoveReportE with four arguments.
+2 of the    504 legal forms of OnMoveReportE with three arguments.
+2 of the     72 legal forms of OnMoveReportE with two arguments.
+9 of the      9 legal forms of OnMoveReportE with one argument.
+1 of the      1 legal form  of OnMoveReportE with no arguments.
+
+The spec provides that the daemon started by OnMoveReportE must be
+stopped before another OnMoveReportE command is given, so
+OnMoveReportE.prg does that.
+
+The OnMoveReportE.res file contains the responses to the commands in
+the OnMoveReportE.prg. Time and Dis are not included in responses.

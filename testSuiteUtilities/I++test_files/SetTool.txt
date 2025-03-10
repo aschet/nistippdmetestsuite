@@ -1,0 +1,10 @@
+SetTool.txt
+
+The SetTool.prg file:
+starts a session
+calls SetTool twice, each time checking the name with GetProp
+ends the session
+
+The SetTool.res file contains responses to the commands in the
+SetTool.prg file.
+

@@ -1,0 +1,40 @@
+04:08:12_07:38:42 received: 00001 StartSession()
+
+04:08:12_07:38:42 Sent: 00001 &
+
+04:08:12_07:38:42 Sent: 00001 %
+
+04:08:12_07:38:43 received: 00005 Home()
+
+04:08:12_07:38:43 Sent: 00005 &
+
+04:08:12_07:38:44 Sent: 00005 %
+
+04:08:12_07:38:45 received: 00007 ChangeTool("NoTool")
+
+04:08:12_07:38:45 Sent: 00007 &
+
+04:08:12_07:38:45 Sent: 00007 %
+
+04:08:12_07:38:46 received: 00010 GoTo(X(10000000))
+
+04:08:12_07:38:46 Sent: 00010 &
+
+04:08:12_07:38:46 Sent: 00010 ! Error(3, 1008, "00010 GoTo(X(10000000)) : GoTo: TARGET POINT OUT OF WORK VOLUME", "Target position out of machine volume")
+
+04:08:12_07:38:46 Checker: GoTo: TARGET POINT OUT OF WORK VOLUME
+
+04:08:12_07:38:46 Sent: 00010 %
+
+04:08:12_07:38:48 received: 00015 ClearAllErrors()
+
+04:08:12_07:38:48 Sent: 00015 &
+
+04:08:12_07:38:48 Sent: 00015 %
+
+04:08:12_07:38:49 received: 09999 EndSession()
+
+04:08:12_07:38:49 Sent: 09999 &
+
+04:08:12_07:38:49 Sent: 09999 %
+

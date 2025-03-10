@@ -1,0 +1,8 @@
+errorResponses.txt
+
+The errorResponses.res file contains one response for each of the 50
+error types. All of the responses are correct and should parse without
+error.
+
+There is no error_responses.prg file.
+

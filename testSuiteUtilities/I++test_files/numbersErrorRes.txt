@@ -1,0 +1,30 @@
+numbersErrorRes.txt
+
+This file shows what the response parser prints when the
+numbersErrorRes.res file is run through it. The error messages explain
+what is wrong with each number.
+
+There is no numbersErrorRes.prg file, since all the responses in
+numbersErrorRes.res are unsolicited.
+
+E0000 # GoTo(X(12345678901234567))
+BAD NUMBER MORE THAN 16 DIGITS
+
+E0000 # GoTo(X(-.))
+BAD NUMBER NO DIGITS
+
+E0000 # GoTo(X(+))
+BAD NUMBER NO DIGITS
+
+E0000 # GoTo(X(+1.2 E2))
+ILLEGAL SPACE
+
+E0000 # GoTo(X(+1.2E))
+BAD E NUMBER EXPONENT MUST HAVE ONE TWO OR THREE DIGITS
+
+E0000 # GoTo(X(+1.2E0010))
+BAD E NUMBER EXPONENT MUST HAVE ONE TWO OR THREE DIGITS
+
+E0000 # GoTo(X(0.34.33))
+BAD NUMBER TWO DECIMAL POINTS
+

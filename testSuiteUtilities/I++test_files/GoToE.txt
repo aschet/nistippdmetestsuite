@@ -1,0 +1,6 @@
+GoToE.txt
+
+The GoToE.res file contains several server initiated GoTo
+responses. There is no GoToE.prg file since these are not
+responses to commands.
+

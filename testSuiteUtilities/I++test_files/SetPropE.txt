@@ -1,0 +1,6 @@
+SetPropE.txt
+
+The SetPropE.res file contains one instance of each legal server-initiated
+SetProp response. There is no SetPropE.prg file since these are not
+responses to commands.
+

@@ -1,0 +1,10 @@
+ScanOnLineHint.txt
+
+The ScanOnLineHint.prg file:
+starts a session
+calls ScanOnLineHint three times
+ends the session
+
+The ScanOnLineHint.res file contains responses to the commands in the
+The ScanOnLineHint.prg file.
+

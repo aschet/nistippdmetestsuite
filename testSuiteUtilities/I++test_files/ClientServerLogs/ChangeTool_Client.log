@@ -1,0 +1,21 @@
+04:08:12_06:10:30 Sent: 00001 StartSession()
+
+04:08:12_06:10:30 Received: 00001 &
+
+04:08:12_06:10:30 Received: 00001 %
+
+04:08:12_06:10:32 Sent: 00010 ChangeTool("BaseTool")
+
+04:08:12_06:10:32 Received: 00010 &
+
+04:08:12_06:10:32 Received: 00010 %
+
+04:08:12_06:10:34 Final Tag: 09999
+04:08:12_06:10:34 Sent: 09999 EndSession()
+
+04:08:12_06:10:34 Received: 09999 &
+
+04:08:12_06:10:34 Received: 09999 %
+
+04:08:12_06:10:34 Session completed
+04:08:12_06:10:36 Driver file completed

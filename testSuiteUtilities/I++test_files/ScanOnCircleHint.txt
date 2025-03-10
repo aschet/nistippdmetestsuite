@@ -1,0 +1,10 @@
+ScanOnCircleHint.txt
+
+The ScanOnCircleHint.prg file:
+starts a session
+calls ScanOnCircleHint three times
+ends the session
+
+The ScanOnCircleHint.res file contains responses to the commands in the
+The ScanOnCircleHint.prg file.
+

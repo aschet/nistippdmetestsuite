@@ -1,0 +1,10 @@
+GetErrStatusE.txt
+
+The GetErrStatusE.prg file:
+starts a session,
+calls GetErrStatusE,
+ends the session.
+
+The GetErrStatusE.res file contains the responses to the commands
+in the GetErrStatusE.prg file.
+

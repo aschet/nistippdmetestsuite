@@ -1,0 +1,60 @@
+04:08:12_07:55:38 received: 00001 StartSession()
+
+04:08:12_07:55:38 Sent: 00001 &
+
+04:08:12_07:55:38 Sent: 00001 %
+
+04:08:12_07:55:39 received: 00010 GetCsyTransformation(JogDisplayCsy)
+
+04:08:12_07:55:39 Sent: 00010 &
+
+04:08:12_07:55:39 Sent: 00010 # GetCsyTransformation(0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000)
+
+04:08:12_07:55:39 Sent: 00010 %
+
+04:08:12_07:55:40 received: 00020 GetCsyTransformation(JogMoveCsy)
+
+04:08:12_07:55:40 Sent: 00020 &
+
+04:08:12_07:55:40 Sent: 00020 # GetCsyTransformation(0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000)
+
+04:08:12_07:55:40 Sent: 00020 %
+
+04:08:12_07:55:41 received: 00030 GetCsyTransformation(MoveableMachineCsy)
+
+04:08:12_07:55:41 Sent: 00030 &
+
+04:08:12_07:55:41 Sent: 00030 # GetCsyTransformation(0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000)
+
+04:08:12_07:55:41 Sent: 00030 %
+
+04:08:12_07:55:42 received: 00040 GetCsyTransformation(MultipleArmCsy)
+
+04:08:12_07:55:42 Sent: 00040 &
+
+04:08:12_07:55:42 Sent: 00040 # GetCsyTransformation(0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000)
+
+04:08:12_07:55:42 Sent: 00040 %
+
+04:08:12_07:55:43 received: 00050 GetCsyTransformation(PartCsy)
+
+04:08:12_07:55:43 Sent: 00050 &
+
+04:08:12_07:55:44 Sent: 00050 # GetCsyTransformation(0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000)
+
+04:08:12_07:55:44 Sent: 00050 %
+
+04:08:12_07:55:45 received: 00060 GetCsyTransformation(SensorCsy)
+
+04:08:12_07:55:45 Sent: 00060 &
+
+04:08:12_07:55:45 Sent: 00060 # GetCsyTransformation(0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000)
+
+04:08:12_07:55:45 Sent: 00060 %
+
+04:08:12_07:55:46 received: 09999 EndSession()
+
+04:08:12_07:55:46 Sent: 09999 &
+
+04:08:12_07:55:46 Sent: 09999 %
+

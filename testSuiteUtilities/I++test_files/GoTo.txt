@@ -1,0 +1,13 @@
+GoTo.txt
+
+The GoTo.prg file:
+starts a session
+calls ChangeTool("NoTool")
+sets the GoToPar acceleration
+sets the GoToPar speed
+calls GoTo 12 ways, all of which are legal
+ends the session
+
+The GoTo.res file contains responses to the commands in the
+GoTo.prg file. This does not include any data.
+

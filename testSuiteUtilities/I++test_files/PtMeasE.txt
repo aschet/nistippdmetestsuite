@@ -1,0 +1,6 @@
+PtMeasE.txt
+
+The PtMeasE.res file contains three server-initiated PtMeas
+responses. There is no PtMeasE.prg file since these are not
+responses to commands.
+

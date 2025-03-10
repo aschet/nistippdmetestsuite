@@ -1,0 +1,11 @@
+CenterPart.txt
+
+The CenterPart.prg file:
+starts a session,
+homes the machine,
+calls CenterPart,
+ends the session.
+
+The CenterPart.res file contains the responses to the commands
+in the CenterPart.prg file.
+

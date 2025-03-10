@@ -1,0 +1,11 @@
+GetXtdErrStatus.txt
+
+
+The GetXtdErrStatus.prg file:
+starts a session,
+calls GetXtdErrStatus,
+ends the session.
+
+The GetXtdErrStatus.res file contains the responses to the commands
+in the GetXtdErrStatus.prg file.
+

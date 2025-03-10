@@ -1,0 +1,15 @@
+allCmdOK.txt
+
+The allCmdOK.prg file contains at least one instance of each type of I++
+DME Interface version 1.4 command. All the commands in this file are
+correct, and the file should execute (in simulation) without error. The
+commands are arranged alphabetically (except for StopAllDaemons and
+StopDaemon) and numbered 0010, 0020, 0030, etc. Other commands (whose
+tag's last digit is not 0) are added so that correct execution is possible.
+
+The file itself does nothing useful.
+
+The allCmdOK.res file contains responses corresponding to the commands in
+the allCmdOK.prg file. Actual data responses received while executing
+allCmdOK.prg will differ somewhat from those in allCmdOK.res in most cases.
+

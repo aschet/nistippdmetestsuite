@@ -1,0 +1,8 @@
+Get.txt
+
+The Get.prg file calls Get with various combinations of arguments, all
+of which are legal. In particular, the arguments do not need to be in
+any fixed order.
+
+The Get.res file contains responses to the commands in the Get.prg file.
+

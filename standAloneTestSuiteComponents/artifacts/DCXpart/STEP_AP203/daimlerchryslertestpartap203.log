@@ -1,0 +1,104 @@
+
+Pro/ENGINEER STEP Import Log File
+
+Reading began at: Tue Dec 09 09:35:01 2003
+
+STEP file header information
+
+         File Description: CATIA V5 STEP Exchange
+     Implementation level: 2;1
+                     Name: /usr/server/amg/DML_TestPart/SimpleExample/DaimlerChryslerTestPartAP203.stp
+               Time Stamp: 2003-12-08T13:40:03-05:00
+                   Author: none
+             Organization: none
+     Preprocessor Version: CATIA Version 5 Release 11 (IN-9)
+       Originating System: CATIA V5 STEP AP203
+            Authorization:  none
+              File Schema: CONFIG_CONTROL_DESIGN
+
+
+ADVANCED_BREP_SHAPE_REPRESENTATION                     1
+ADVANCED_FACE                                        140
+APPLICATION_CONTEXT                                    1
+APPLICATION_PROTOCOL_DEFINITION                        1
+APPROVAL                                               1
+APPROVAL_DATE_TIME                                     1
+APPROVAL_PERSON_ORGANIZATION                           1
+APPROVAL_ROLE                                          1
+APPROVAL_STATUS                                        1
+AXIS2_PLACEMENT_3D                                   268
+B_SPLINE_CURVE_WITH_KNOTS                             42
+B_SPLINE_SURFACE_WITH_KNOTS                            4
+CALENDAR_DATE                                          1
+CARTESIAN_POINT                                     1534
+CC_DESIGN_APPROVAL                                     1
+CC_DESIGN_DATE_AND_TIME_ASSIGNMENT                     2
+CC_DESIGN_PERSON_AND_ORGANIZATION_ASSIGNMENT           4
+CC_DESIGN_SECURITY_CLASSIFICATION                      1
+CIRCLE                                               159
+CLOSED_SHELL                                           7
+CONICAL_SURFACE                                        1
+COORDINATED_UNIVERSAL_TIME_OFFSET                      1
+CYLINDRICAL_SURFACE                                   42
+DATE_AND_TIME                                          1
+DATE_TIME_ROLE                                         2
+DESIGN_CONTEXT                                         1
+DIRECTION                                            510
+EDGE_CURVE                                           332
+EDGE_LOOP                                            163
+FACE_BOUND                                            23
+FACE_OUTER_BOUND                                     140
+FILE_DESCRIPTION                                       1
+FILE_NAME                                              1
+FILE_SCHEMA                                            1
+GEOMETRIC_REPRESENTATION_CONTEXT                       1
+GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT                    1
+GLOBAL_UNIT_ASSIGNED_CONTEXT                           1
+LENGTH_UNIT                                            1
+LINE                                                 133
+LOCAL_TIME                                             1
+MANIFOLD_SOLID_BREP                                    7
+MECHANICAL_CONTEXT                                     1
+NAMED_UNIT                                             3
+ORGANIZATION                                           1
+ORIENTED_EDGE                                        664
+PERSON                                                 1
+PERSONAL_ADDRESS                                       1
+PERSON_AND_ORGANIZATION                                1
+PERSON_AND_ORGANIZATION_ROLE                           4
+PLANE                                                 33
+PLANE_ANGLE_MEASURE_WITH_UNIT                          1
+PLANE_ANGLE_UNIT                                       1
+PRODUCT                                                1
+PRODUCT_CATEGORY                                       1
+PRODUCT_CATEGORY_RELATIONSHIP                          1
+PRODUCT_DEFINITION                                     1
+PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE     1
+PRODUCT_DEFINITION_SHAPE                               1
+PRODUCT_RELATED_PRODUCT_CATEGORY                       1
+REPRESENTATION_CONTEXT                                 1
+SECURITY_CLASSIFICATION                                1
+SECURITY_CLASSIFICATION_LEVEL                          1
+SHAPE_DEFINITION_REPRESENTATION                        1
+SHAPE_REPRESENTATION                                   1
+SHAPE_REPRESENTATION_RELATIONSHIP                      1
+SI_UNIT                                                3
+SOLID_ANGLE_UNIT                                       1
+SPHERICAL_SURFACE                                     11
+SURFACE_OF_LINEAR_EXTRUSION                            2
+TOROIDAL_SURFACE                                      21
+UNCERTAINTY_MEASURE_WITH_UNIT                          1
+VECTOR                                               135
+VERTEX_POINT                                         211
+
+TOTAL                                               4644
+
+
+Reading finished at: Tue Dec 09 09:35:01 2003
+
+Total reading time: 00:00:00.
+
+
+Processing finished at: Tue Dec 09 09:35:04 2003
+
+Total processing time: 00:00:03.

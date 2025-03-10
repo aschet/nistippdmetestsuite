@@ -1,0 +1,17 @@
+ScanOnLine.txt
+
+The ScanOnLine.prg file starts, calls Home, ChangeTool, and
+ScanOnLine, and stops.
+
+00001 StartSession()
+\\
+00002 Home()
+\\
+00003 ChangeTool("BaseTool")
+\\
+00010 ScanOnLine(1,2,3,4,5,6,7,8,9,10)
+\\
+09999 EndSession()
+\\
+:
+:

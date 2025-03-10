@@ -1,0 +1,8 @@
+StartSession.txt
+
+The StartSession.prg file:
+starts a session,
+ends the session,
+starts a second session,
+ends the second session.
+

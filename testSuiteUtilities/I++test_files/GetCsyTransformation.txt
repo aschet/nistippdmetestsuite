@@ -1,0 +1,10 @@
+GetCsyTransformation.txt
+
+The GetCsyTransformation.prg file:
+starts a session,
+makes all six legal calls to GetCsyTransformation,
+ends the session.
+
+The GetCsyTransformation.res file contains the responses to the commands
+in the GetCsyTransformation.prg file.
+

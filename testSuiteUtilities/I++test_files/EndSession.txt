@@ -1,0 +1,9 @@
+EndSession.txt
+
+The EndSession.prg file:
+starts a session (so there is a session to end),
+ends the session.
+
+The EndSession.res file contains responses to the commands given in
+the EndSession.prg file.
+

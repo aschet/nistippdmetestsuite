@@ -1,0 +1,10 @@
+Error.txt
+
+The Error.prg file contains a GoTo somewhere out of range command,
+preceded by the commands needed to set it up, and followed by a
+ClearAllErrors.
+
+The Error.res file contains the responses to the Error.prg file, which
+include an error message responding to the out of range GoTo.
+A server-generated "Air pressure out of range" response is also included.
+

@@ -1,0 +1,10 @@
+GetProp.txt
+
+The GetProp.prg file:
+starts a session
+makes twelve calls to GetProp of various sorts
+ends the session
+
+The GetProp.res file contains the responses to the commands in the
+GetProp.prg file.
+

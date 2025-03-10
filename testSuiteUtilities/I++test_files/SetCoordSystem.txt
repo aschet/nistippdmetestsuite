@@ -1,0 +1,17 @@
+SetCoordSystem.txt
+
+The SetCoordSystem.prg file
+starts a session,
+sets the coordinate system to MachineCsy
+gets the coordinate system
+sets the coordinate system to MoveableMachineCsy
+gets the coordinate system
+sets the coordinate system to MultipleArmCsy
+gets the coordinate system
+sets the coordinate system to PartCsy
+gets the coordinate system
+ends the session
+
+The SetCoordSystem.res file contains the responses to the commands
+in the SetCoordSystem.prg file.
+

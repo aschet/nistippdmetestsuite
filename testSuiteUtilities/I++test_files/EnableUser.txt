@@ -1,0 +1,15 @@
+EnableUser.txt
+
+The EnableUser.prg file:
+starts a session,
+enables the user,
+checks that the user is enabled,
+disables the user,
+checks that the user is disabled,
+enables the user again,
+checks that the user is enabled,
+ends the session.
+
+The EnableUser.res file contains responses to the commands given in
+the EnableUser.prg file.
+

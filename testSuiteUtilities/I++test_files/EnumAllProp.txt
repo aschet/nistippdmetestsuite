@@ -1,0 +1,14 @@
+EnumAllProp.txt
+
+The EnumAllProp.prg file contains one instance of each of the 20 calls
+to EnumAllProp allowed by the spec for which the response includes
+data. There are 56 additional calls for properties that have no
+children(such as "EnumAllProp(FoundTool.PtMeasPar.Search.Act())"
+that do not return data.
+
+Alignment, CollisionVolume, Name, and Id are not used, since
+the spec allows them only with GetProp.
+
+The EnumAllProp.res file contains the responses to the commands in
+the EnumAllProp.prg file.
+
