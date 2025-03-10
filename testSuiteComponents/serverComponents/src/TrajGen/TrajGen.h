@@ -4,8 +4,7 @@
 #define TRAJGEN_H
 
 #include <fstream>  //hui-101802
-#include <fstream.h> //hui-101802
-#include <iostream.h> //hui-101802
+#include <iostream> //hui-101802
 
 #include "../Cmm/world.h"
 #include "../Server/ServerQueues.h"
@@ -15,12 +14,12 @@
 #include <vector>
 
 
-typedef enum trajectoryType {
+enum trajectoryType {
   Linear	 = 1,
   Circular   = 2,
   Helical    = 3 };
 
-typedef enum trajectoryState {
+enum trajectoryState {
   TrajInit       = 1,
   TrajAccel      = 2,
   TrajConstVel   = 3,
@@ -28,7 +27,7 @@ typedef enum trajectoryState {
   TrajDone       = 5 };
   
 
-typedef enum movingState {
+enum movingState {
   MoveInitialize   = 1,
   MoveApproach     = 2,
   MoveSearch       = 3,
@@ -36,7 +35,7 @@ typedef enum movingState {
   MoveRetract      = 5,
   MoveDone         = 6 };
 
-typedef enum scanReportOrder {
+enum scanReportOrder {
   ScanQ            = 1,
   ScanR            = 2,
   ScanA            = 3,

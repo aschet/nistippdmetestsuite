@@ -11,8 +11,8 @@
 
 //#include "commonInterface3.h"
 
-#include <iostream.h>
-#include <fstream.h>
+#include <iostream>
+#include <fstream>
 
 //*3 fstream LogFile;
 
@@ -62,7 +62,7 @@ protected:
 	afx_msg void OnKillfocusSocketPortNumber();
 	virtual void OnOK();
 	afx_msg void OnKillfocusStatus();
-	afx_msg void OnTimer(UINT nIDEvent);
+	afx_msg void OnTimer(UINT_PTR nIDEvent);
 	afx_msg void OnKillfocusErrorCode();
 	afx_msg void OnNoLogParser();
 	afx_msg void OnYesLogParser();

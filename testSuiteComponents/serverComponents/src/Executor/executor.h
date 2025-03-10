@@ -2,8 +2,7 @@
 #define EXECUTOR_H
 
 #include <fstream>  //hui-101802
-#include <fstream.h> //hui-101802
-#include <iostream.h> //hui-101802
+#include <iostream> //hui-101802
 
 #include "../Cmm/world.h"
 #include "../Server/ServerQueues.h"

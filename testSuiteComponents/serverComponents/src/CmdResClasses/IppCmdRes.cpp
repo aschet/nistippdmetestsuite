@@ -14,7 +14,7 @@
 #include "../Server/StdAfx.h" /*for windows PC's */
 #include <stdio.h>
 #include <string.h>
-#include <iostream.h>
+#include <iostream>
 #include "IppCmdRes.h"
 
 /* Command::printLikeGet ************************************************

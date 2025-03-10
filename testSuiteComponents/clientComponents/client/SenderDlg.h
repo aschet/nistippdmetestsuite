@@ -13,8 +13,8 @@
 		SetDlgItemText(IDC_STATUS, s)
 
 
-#include <iostream.h>
-#include <fstream.h>
+#include <iostream>
+#include <fstream>
 
 // Timeout constants
 const int ConnectTimerID = 10;
@@ -47,9 +47,9 @@ public:
 	//}}AFX_DATA
 
 	// I added these variables
-	fstream CMMDriverFile;
-	fstream LogFile;
-	fstream IniFile;
+	std::fstream CMMDriverFile;
+	std::fstream LogFile;
+	std::fstream IniFile;
 
 	// ClassWizard generated virtual function overrides
 	//{{AFX_VIRTUAL(CSenderDlg)
@@ -75,7 +75,7 @@ protected:
 	virtual void OnCancel();
 	virtual void OnOK();
 	afx_msg void OnKillfocusStatus();
-	afx_msg void OnTimer(UINT nIDEvent);
+	afx_msg void OnTimer(UINT_PTR nIDEvent);
 	afx_msg void OnSetCmmdriverFile();
 	afx_msg void OnDMISFile();
 	afx_msg void OnCMMDriverFile();

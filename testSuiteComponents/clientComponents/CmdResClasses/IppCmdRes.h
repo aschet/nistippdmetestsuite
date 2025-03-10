@@ -69,14 +69,14 @@ not being checked.
 #define TAGSTRINGSIZE 6
 #define IPPSIZE 65536
 
-typedef enum tagIdType {
+enum tagIdType {
   CommandTag = 1,
   EventTag   = 2};
 
 
 namespace ipp {
 
-typedef enum commandNameType {
+enum commandNameType {
 
   AbortE                 =  2,
   AlignPart              =  3,
@@ -133,7 +133,7 @@ typedef enum commandNameType {
   TiltPart               = 54}; 
 } // end of namespace ipp
 
-typedef enum errorNameType {
+enum errorNameType {
   BufferFull                = 0,
   IllegalTag                = 1,
   NoSpaceAtPos6             = 2,
@@ -186,7 +186,7 @@ typedef enum errorNameType {
   PartNotAligned            = 2506};
 
 
-typedef enum responseNameType {
+enum responseNameType {
   Ack                      =  1,  // 7th char is a &
   Complete                 =  2,  // 7th char is a %
   DataAlign                =  3,  // 7th char is a #
@@ -221,7 +221,7 @@ ippKeyStrings array below.
 
 */
 
-typedef enum targetPosType {
+enum targetPosType {
   A    = 1,
   B    = 2,
   C    = 3,
@@ -231,7 +231,7 @@ typedef enum targetPosType {
   Z    = 7,
   IJK  = 8};
 
-typedef enum coordSysType {
+enum coordSysType {
   MachineCsy          =  9,
   MoveableMachineCsy  = 10,
   MultipleArmCsy      = 11,
@@ -240,14 +240,14 @@ typedef enum coordSysType {
   JogMoveCsy          = 14,
   SensorCsy           = 15};
 
-typedef enum changeToolActionType {
+enum changeToolActionType {
   MoveAuto      = 16,
   MoveMan       = 17,
   Rotate        = 18,
   Switch        = 19};
 
 
-typedef enum otherKeyType {
+enum otherKeyType {
   EmptyKey          =  0,
   Accel             = 20,
   Actual            = 21,

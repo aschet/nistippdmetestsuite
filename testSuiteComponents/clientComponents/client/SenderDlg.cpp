@@ -225,7 +225,7 @@ BOOL CSenderDlg::OnInitDialog()
 	m_MessageListBox.SetHorizontalExtent(MAX_BUF_SIZE);
 
 	// Open the .ini file for initialization
-	IniFile.open("client.ini", ios::in);
+	IniFile.open("client.ini", std::ios::in);
 
 	// Read the Hostname from the file
 	IniFile.getline(buf, sizeof(buf));
@@ -244,7 +244,7 @@ BOOL CSenderDlg::OnInitDialog()
 
 	// Close .ini file and open for writing
 	IniFile.close();
-	IniFile.open("client.ini", ios::out);
+	IniFile.open("client.ini", std::ios::out);
 	
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
@@ -333,7 +333,7 @@ void CSenderDlg::OnSetLogfile()
 
 	SetDlgItemText(IDC_LOGFILE, m_LogFile);
 	
-	LogFile.open(m_LogFile, ios::out);
+	LogFile.open(m_LogFile, std::ios::out);
 
 }
 
@@ -366,7 +366,7 @@ void CSenderDlg::OnExecute()
 	if (logfile_open == FALSE)
 	{
 		// Set the default logfile
-		LogFile.open("client.log", ios::out);
+		LogFile.open("client.log", std::ios::out);
 		logfile_open = TRUE;
 
 	}
@@ -440,7 +440,7 @@ void CSenderDlg::OnSetCmmdriverFile()
 
 		if (file_open == FALSE)
 		{// Open the file for reading
-		CMMDriverFile.open(m_CMMDriverFile, ios::in);
+		CMMDriverFile.open(m_CMMDriverFile, std::ios::in);
 		file_open = TRUE;
 		}
 
@@ -615,7 +615,7 @@ void CSenderDlg::OnKillfocusStatus()
 	
 }
 
-void CSenderDlg::OnTimer(UINT nIDEvent) 
+void CSenderDlg::OnTimer(UINT_PTR nIDEvent)
 {
 	// TODO: Add your message handler code here and/or call default
 
@@ -899,7 +899,7 @@ void CSenderDlg::OnTimer(UINT nIDEvent)
 						PRINTSTATUS("Driver file completed");
 
 						// Reset to the beginning of File
-						CMMDriverFile.seekg(ios::beg);
+						CMMDriverFile.seekg(std::ios::beg);
 						file_running = FALSE;
 
 					}
@@ -1012,7 +1012,7 @@ void CSenderDlg::OnTimer(UINT nIDEvent)
 				PRINTSTATUS(buf);
 
 				// Reset to the beginning of File
-				CMMDriverFile.seekg(ios::beg);
+				CMMDriverFile.seekg(std::ios::beg);
 				file_running = FALSE;
 
 				writeLogFile(buf, LogFile);
@@ -1293,7 +1293,7 @@ void CSenderDlg::OnSingleStep()
 				PRINTSTATUS(buf);
 
 				// Reset to the beginning of File
-				CMMDriverFile.seekg(ios::beg);
+				CMMDriverFile.seekg(std::ios::beg);
 				file_running = FALSE;
 
 				writeLogFile(buf, LogFile);
@@ -1521,7 +1521,7 @@ void CSenderDlg::OnSetManualCommand()
 			PRINTSTATUS(buf);
 
 			// Reset to the beginning of File
-			CMMDriverFile.seekg(ios::beg);
+			CMMDriverFile.seekg(std::ios::beg);
 			file_running = FALSE;
 
 			writeLogFile(buf, LogFile);

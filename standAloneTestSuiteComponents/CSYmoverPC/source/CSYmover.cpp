@@ -42,7 +42,7 @@ that machine.
 
 #define IPPSIZE  65536
 
-typedef enum axisDirection { UP, DOWN, RIGHT, LEFT, FRONT, BACK };
+enum axisDirection { UP, DOWN, RIGHT, LEFT, FRONT, BACK };
 
 /*********************************************************************/
 

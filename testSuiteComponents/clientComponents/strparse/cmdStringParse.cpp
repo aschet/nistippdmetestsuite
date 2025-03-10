@@ -141,7 +141,7 @@ int readWholeNum(char *line)
 
 }
 
-void writeLogFile(char *buffer, fstream Logfile)
+void writeLogFile(char *buffer, std::fstream& Logfile)
 {
 
 	char timestr[20] = "";

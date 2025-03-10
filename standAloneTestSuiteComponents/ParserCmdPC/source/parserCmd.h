@@ -15,7 +15,7 @@
 
 */
 
-typedef enum parserCmdErrorId {
+enum parserCmdErrorId {
 //A
 OK = 0,
 ARGUMENT_FIRST_PART_MUST_BE_TOOL_OR_FOUNDTOOL,
@@ -129,7 +129,7 @@ for being an integer.
 
 */
 
-typedef enum argItemType {ARGCOMMA, ARGDOT, ARGDOUBLE, ARGETAG, ARGIJK,
+enum argItemType {ARGCOMMA, ARGDOT, ARGDOUBLE, ARGETAG, ARGIJK,
 			 ARGKEYWORD, ARGPARENEMPTY, ARGPARENDOUBLE, ARGSTRING};
 
 /*******************************************************************/

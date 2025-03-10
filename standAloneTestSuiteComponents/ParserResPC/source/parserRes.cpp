@@ -67,7 +67,7 @@ asks for another response file name or q to quit.
 
 */
 
-main()
+int main()
 {
   FILE * infile;
   parserRes parser1;

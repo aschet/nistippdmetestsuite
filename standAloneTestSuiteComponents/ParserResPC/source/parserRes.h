@@ -15,7 +15,7 @@
 
 */
 
-typedef enum parserResErrorId {
+enum parserResErrorId {
   OK = 0,
   BAD_CHARACTER_AFTER_KEYWORD,
   BAD_CHARACTER_AFTER_RESPONSE_END,
@@ -60,7 +60,7 @@ typedef enum parserResErrorId {
   ZERO_TAG_MUST_BE_SERVER_INITIATED_RESPONSE
 };
 
-typedef enum resItemType {RESCOMMA, RESDOT, RESDOUBLE, RESKEYWORD,
+enum resItemType {RESCOMMA, RESDOT, RESDOUBLE, RESKEYWORD,
 			  RESPARENLEFT, RESPARENRIGHT, RESSTRING};
 
 /* parserRes

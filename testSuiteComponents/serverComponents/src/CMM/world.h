@@ -41,7 +41,7 @@ setting when the system starts up) or fewer (combine "erred" and
 
 */
 
-typedef enum goness {ready, moving, erred, aborted};
+enum goness {ready, moving, erred, aborted};
 
 /*******************************************************************/
 

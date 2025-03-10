@@ -9,7 +9,7 @@
 #include <string.h>
 #include "world.h"
 
-typedef enum checkerErrorId {
+enum checkerErrorId {
 CHECKER_OK = 0,
 ALREADY_IN_SESSION,
 AXIS_DIRECTION_VECTOR_HAS_ZERO_LENGTH,

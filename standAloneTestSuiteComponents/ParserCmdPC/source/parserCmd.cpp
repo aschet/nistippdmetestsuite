@@ -66,7 +66,7 @@ by (3) the I++ error number of the error.
 
 */
 
-main()
+int main()
 {
   FILE * infile;
   parserCmd parser1;

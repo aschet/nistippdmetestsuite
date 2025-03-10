@@ -486,7 +486,7 @@ void CServerDlg::OnKillfocusStatus()
 	
 }
 
-void CServerDlg::OnTimer(UINT nIDEvent) 
+void CServerDlg::OnTimer(UINT_PTR nIDEvent) 
 {
 	// TODO: Add your message handler code here and/or call default
 
@@ -624,7 +624,7 @@ void CServerDlg::OnTimer(UINT nIDEvent)
 				// Single command is ready	
 				for (int i=0; i<=lastChar; i++)
 					commandBuffer[i]=assemblyBuffer[i];
-				for(i=0; i<=lastChar; i++)
+				for(int i=0; i<=lastChar; i++)
 					cmdStoreBuff[i]=assemblyBuffer[i];
 			
 				assemblyBuffer[0]=NULL;
@@ -635,7 +635,7 @@ void CServerDlg::OnTimer(UINT nIDEvent)
 				// Bad command protocol
 
 				int j=0;
-				for(i=0; i<=lastChar; i++)
+				for(int i=0; i<=lastChar; i++)
 				{
 					if(assemblyBuffer[i]!=13 && assemblyBuffer[i]!=10){
 					  cmdStoreBuff[j]=assemblyBuffer[i];

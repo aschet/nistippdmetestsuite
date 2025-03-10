@@ -3,7 +3,7 @@
 
 
 #include <fstream> 
-#include <iostream.h>
+#include <iostream>
 
 class Logger {
 
@@ -24,7 +24,7 @@ public:
 	   ~Logger(){}
 
 	   void openFile(CString fileName){
-		  LogFile.open(fileName, ios::out);
+		  LogFile.open(fileName, std::ios::out);
 		}	
 
 	   void writeFile(char *out){
